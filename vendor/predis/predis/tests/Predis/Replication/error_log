@@ -1,0 +1,1 @@
+[22-Jan-2015 20:25:48 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Replication/ReplicationStrategyTest.php on line 21

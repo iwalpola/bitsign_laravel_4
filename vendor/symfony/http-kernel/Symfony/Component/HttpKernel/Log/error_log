@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:18 America/Denver] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Log/LoggerInterface.php on line 25
+[22-Jan-2015 20:26:18 America/Denver] PHP Fatal error:  Class 'Psr\Log\NullLogger' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Log/NullLogger.php on line 23

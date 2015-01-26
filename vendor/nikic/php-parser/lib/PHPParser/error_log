@@ -1,0 +1,8 @@
+[09-Jan-2015 23:24:50 America/Denver] PHP Fatal error:  Interface 'PHPParser_Node' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/NodeAbstract.php on line 3
+[09-Jan-2015 23:26:30 America/Denver] PHP Fatal error:  Interface 'PHPParser_NodeTraverserInterface' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/NodeTraverser.php on line 4
+[09-Jan-2015 23:31:44 America/Denver] PHP Fatal error:  Interface 'PHPParser_Builder' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/BuilderAbstract.php on line 3
+[09-Jan-2015 23:44:09 America/Denver] PHP Fatal error:  Interface 'PHPParser_NodeVisitor' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/NodeVisitorAbstract.php on line 7
+[22-Jan-2015 20:25:17 America/Denver] PHP Fatal error:  Interface 'PHPParser_Builder' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/BuilderAbstract.php on line 3
+[22-Jan-2015 20:25:18 America/Denver] PHP Fatal error:  Interface 'PHPParser_NodeTraverserInterface' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/NodeTraverser.php on line 4
+[22-Jan-2015 20:25:18 America/Denver] PHP Fatal error:  Interface 'PHPParser_Node' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/NodeAbstract.php on line 3
+[22-Jan-2015 20:25:18 America/Denver] PHP Fatal error:  Interface 'PHPParser_NodeVisitor' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/NodeVisitorAbstract.php on line 7

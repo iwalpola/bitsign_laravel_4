@@ -1,0 +1,1 @@
+[22-Jan-2015 20:26:25 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\CssSelector\XPath\TranslatorInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/css-selector/Symfony/Component/CssSelector/XPath/Translator.php on line 30

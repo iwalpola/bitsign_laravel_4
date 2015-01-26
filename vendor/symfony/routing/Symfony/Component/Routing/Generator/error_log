@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:12 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\Routing\RequestContextAwareInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGeneratorInterface.php on line 35
+[22-Jan-2015 20:26:12 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\Routing\Generator\UrlGeneratorInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php on line 30

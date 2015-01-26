@@ -1,0 +1,5 @@
+[19-Dec-2014 04:54:55 America/Denver] PHP Fatal error:  Class 'Eloquent' not found in /home3/runaroun/public_html/bitsign/app/models/User.php on line 6
+[09-Jan-2015 22:35:39 America/Denver] PHP Fatal error:  Class 'Eloquent' not found in /home3/runaroun/public_html/bitsign/app/models/User.php on line 6
+[22-Jan-2015 20:24:33 America/Denver] PHP Fatal error:  Class 'Eloquent' not found in /home3/runaroun/public_html/bitsign/app/models/User.php on line 6
+[23-Jan-2015 19:04:49 America/Denver] PHP Fatal error:  Class 'Eloquent' not found in /home3/runaroun/public_html/bitsign/app/models/User.php on line 6
+[24-Jan-2015 16:22:17 America/Denver] PHP Fatal error:  Class 'Eloquent' not found in /home3/runaroun/public_html/bitsign/app/models/User.php on line 6

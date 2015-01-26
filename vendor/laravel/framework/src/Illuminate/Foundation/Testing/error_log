@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:27 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php on line 6
+[22-Jan-2015 20:26:27 America/Denver] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\Client' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Client.php on line 7

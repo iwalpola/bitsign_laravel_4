@@ -1,0 +1,2 @@
+[22-Jan-2015 20:25:24 America/Denver] PHP Fatal error:  Class 'Monolog\Processor\MemoryProcessor' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php on line 21
+[22-Jan-2015 20:25:24 America/Denver] PHP Fatal error:  Class 'Monolog\Processor\MemoryProcessor' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php on line 21

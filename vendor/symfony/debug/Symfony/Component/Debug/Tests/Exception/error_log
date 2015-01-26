@@ -1,0 +1,1 @@
+[22-Jan-2015 20:26:41 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/debug/Symfony/Component/Debug/Tests/Exception/FlattenExceptionTest.php on line 31

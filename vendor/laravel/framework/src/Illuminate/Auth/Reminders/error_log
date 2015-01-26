@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:26 America/Denver] PHP Fatal error:  Interface 'Illuminate\Auth\Reminders\ReminderRepositoryInterface' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Auth/Reminders/DatabaseReminderRepository.php on line 6
+[22-Jan-2015 20:26:27 America/Denver] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Auth/Reminders/ReminderServiceProvider.php on line 9

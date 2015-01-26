@@ -1,0 +1,4 @@
+[09-Jan-2015 23:11:29 America/Denver] PHP Fatal error:  Class 'PhpseclibTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/phpseclib/phpseclib/tests/Net/SSH1Test.php on line 9
+[09-Jan-2015 23:13:09 America/Denver] PHP Fatal error:  Class 'PhpseclibTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/phpseclib/phpseclib/tests/Net/SSH2Test.php on line 10
+[22-Jan-2015 20:25:20 America/Denver] PHP Fatal error:  Class 'PhpseclibTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/phpseclib/phpseclib/tests/Net/SSH2Test.php on line 10
+[22-Jan-2015 20:25:20 America/Denver] PHP Fatal error:  Class 'PhpseclibTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/phpseclib/phpseclib/tests/Net/SSH1Test.php on line 9

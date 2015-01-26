@@ -1,0 +1,4 @@
+[09-Jan-2015 23:47:49 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/PubSub/PubSubContextTest.php on line 22
+[09-Jan-2015 23:48:49 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/PubSub/DispatcherLoopTest.php on line 21
+[22-Jan-2015 20:25:48 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/PubSub/DispatcherLoopTest.php on line 21
+[22-Jan-2015 20:25:48 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/PubSub/PubSubContextTest.php on line 22

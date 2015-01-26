@@ -1,0 +1,1 @@
+[22-Jan-2015 20:26:09 America/Denver] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\File\File' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php on line 28

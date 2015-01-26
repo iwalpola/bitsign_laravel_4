@@ -1,0 +1,5 @@
+[22-Jan-2015 20:26:11 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Collection/Iterator/SetKeyTest.php on line 22
+[22-Jan-2015 20:26:11 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Collection/Iterator/HashKeyTest.php on line 22
+[22-Jan-2015 20:26:11 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Collection/Iterator/KeyspaceTest.php on line 22
+[22-Jan-2015 20:26:11 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Collection/Iterator/ListKeyTest.php on line 22
+[22-Jan-2015 20:26:11 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Collection/Iterator/SortedSetKeyTest.php on line 22

@@ -1,0 +1,4 @@
+[09-Jan-2015 22:51:19 America/Denver] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home3/runaroun/public_html/bitsign/vendor/psr/log/Psr/Log/NullLogger.php on line 14
+[09-Jan-2015 22:56:29 America/Denver] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/psr/log/Psr/Log/AbstractLogger.php on line 13
+[22-Jan-2015 20:25:10 America/Denver] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/psr/log/Psr/Log/AbstractLogger.php on line 13
+[22-Jan-2015 20:25:12 America/Denver] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home3/runaroun/public_html/bitsign/vendor/psr/log/Psr/Log/NullLogger.php on line 14

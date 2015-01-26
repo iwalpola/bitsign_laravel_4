@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:44 America/Denver] PHP Fatal error:  Class 'PHPParser_Node_Stmt_TraitUseAdaptation' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 9
+[22-Jan-2015 20:26:45 America/Denver] PHP Fatal error:  Class 'PHPParser_Node_Stmt_TraitUseAdaptation' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 10

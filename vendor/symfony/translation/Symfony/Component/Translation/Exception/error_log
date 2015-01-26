@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:25 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\Translation\Exception\ExceptionInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/translation/Symfony/Component/Translation/Exception/InvalidResourceException.php on line 22
+[22-Jan-2015 20:26:25 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\Translation\Exception\ExceptionInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/translation/Symfony/Component/Translation/Exception/NotFoundResourceException.php on line 22

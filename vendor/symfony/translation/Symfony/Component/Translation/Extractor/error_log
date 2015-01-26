@@ -1,0 +1,1 @@
+[22-Jan-2015 20:26:24 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\Translation\Extractor\ExtractorInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/translation/Symfony/Component/Translation/Extractor/ChainExtractor.php on line 22

@@ -1,0 +1,6 @@
+[22-Jan-2015 20:25:24 America/Denver] PHP Fatal error:  Class 'Monolog\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/Processor/MemoryPeakUsageProcessorTest.php on line 17
+[22-Jan-2015 20:25:24 America/Denver] PHP Fatal error:  Class 'Monolog\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/Processor/UidProcessorTest.php on line 17
+[22-Jan-2015 20:25:24 America/Denver] PHP Fatal error:  Class 'Monolog\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/Processor/WebProcessorTest.php on line 17
+[22-Jan-2015 20:25:24 America/Denver] PHP Fatal error:  Class 'Monolog\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/Processor/IntrospectionProcessorTest.php on line 34
+[22-Jan-2015 20:25:24 America/Denver] PHP Fatal error:  Class 'Monolog\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/Processor/MemoryUsageProcessorTest.php on line 17
+[22-Jan-2015 20:25:24 America/Denver] PHP Fatal error:  Class 'Monolog\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/Processor/ProcessIdProcessorTest.php on line 17

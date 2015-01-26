@@ -1,0 +1,2 @@
+[09-Jan-2015 22:59:24 America/Denver] PHP Fatal error:  Class 'Patchwork\PHP\Shim\Normalizer' not found in /home3/runaroun/public_html/bitsign/vendor/patchwork/utf8/class/Normalizer.php on line 16
+[22-Jan-2015 20:25:05 America/Denver] PHP Fatal error:  Class 'Patchwork\PHP\Shim\Normalizer' not found in /home3/runaroun/public_html/bitsign/vendor/patchwork/utf8/class/Normalizer.php on line 16

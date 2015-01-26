@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:47 America/Denver] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php on line 19
+[22-Jan-2015 20:26:48 America/Denver] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php on line 19

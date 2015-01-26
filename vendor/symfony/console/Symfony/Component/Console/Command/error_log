@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:06 America/Denver] PHP Fatal error:  Class 'Symfony\Component\Console\Command\Command' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/console/Symfony/Component/Console/Command/HelpCommand.php on line 26
+[22-Jan-2015 20:26:06 America/Denver] PHP Fatal error:  Class 'Symfony\Component\Console\Command\Command' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/console/Symfony/Component/Console/Command/ListCommand.php on line 27

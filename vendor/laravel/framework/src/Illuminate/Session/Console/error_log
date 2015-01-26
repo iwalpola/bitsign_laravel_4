@@ -1,0 +1,1 @@
+[22-Jan-2015 20:26:31 America/Denver] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php on line 6

@@ -1,0 +1,4 @@
+[22-Jan-2015 20:26:11 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/debug/Symfony/Component/Debug/Tests/ExceptionHandlerTest.php on line 19
+[22-Jan-2015 20:26:11 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/debug/Symfony/Component/Debug/Tests/DebugClassLoaderTest.php on line 17
+[22-Jan-2015 20:26:11 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/debug/Symfony/Component/Debug/Tests/ErrorHandlerTest.php on line 23
+[22-Jan-2015 20:26:11 America/Denver] PHP Fatal error:  Class 'Symfony\Component\Debug\ExceptionHandler' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/debug/Symfony/Component/Debug/Tests/MockExceptionHandler.php on line 17

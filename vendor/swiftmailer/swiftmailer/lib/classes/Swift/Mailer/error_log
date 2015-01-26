@@ -1,0 +1,1 @@
+[22-Jan-2015 20:26:28 America/Denver] PHP Fatal error:  Interface 'Swift_Mailer_RecipientIterator' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php on line 19

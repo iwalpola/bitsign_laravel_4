@@ -1,0 +1,4 @@
+[22-Jan-2015 20:25:56 America/Denver] PHP Fatal error:  Interface 'Illuminate\Exception\ExceptionDisplayerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Exception/PlainDisplayer.php on line 7
+[22-Jan-2015 20:25:57 America/Denver] PHP Fatal error:  Interface 'Illuminate\Exception\ExceptionDisplayerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Exception/WhoopsDisplayer.php on line 8
+[22-Jan-2015 20:25:57 America/Denver] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Exception/ExceptionServiceProvider.php on line 8
+[22-Jan-2015 20:25:57 America/Denver] PHP Fatal error:  Interface 'Illuminate\Exception\ExceptionDisplayerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Exception/SymfonyDisplayer.php on line 6

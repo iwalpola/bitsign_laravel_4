@@ -1,0 +1,3 @@
+[22-Jan-2015 20:25:29 America/Denver] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/Handler/JsonResponseHandlerTest.php on line 13
+[22-Jan-2015 20:25:29 America/Denver] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/Handler/PrettyPageHandlerTest.php on line 14
+[22-Jan-2015 20:25:29 America/Denver] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/Handler/XmlResponseHandlerTest.php on line 12

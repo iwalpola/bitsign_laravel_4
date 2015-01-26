@@ -1,0 +1,10 @@
+[22-Jan-2015 20:26:19 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Protocol/Text/ComposableTextProtocolTest.php on line 20
+[22-Jan-2015 20:26:19 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Protocol/Text/ResponseBulkHandlerTest.php on line 20
+[22-Jan-2015 20:26:19 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Protocol/Text/ResponseIntegerHandlerTest.php on line 20
+[22-Jan-2015 20:26:19 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Protocol/Text/ResponseErrorHandlerTest.php on line 20
+[22-Jan-2015 20:26:19 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Protocol/Text/TextCommandSerializerTest.php on line 20
+[22-Jan-2015 20:26:19 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Protocol/Text/ResponseMultiBulkHandlerTest.php on line 20
+[22-Jan-2015 20:26:19 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Protocol/Text/ResponseStatusHandlerTest.php on line 21
+[22-Jan-2015 20:26:19 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Protocol/Text/TextProtocolTest.php on line 20
+[22-Jan-2015 20:26:19 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Protocol/Text/ResponseMultiBulkStreamHandlerTest.php on line 20
+[22-Jan-2015 20:26:19 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Protocol/Text/TextResponseReaderTest.php on line 20

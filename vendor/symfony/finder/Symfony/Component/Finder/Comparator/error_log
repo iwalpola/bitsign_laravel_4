@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:08 America/Denver] PHP Fatal error:  Class 'Symfony\Component\Finder\Comparator\Comparator' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/finder/Symfony/Component/Finder/Comparator/DateComparator.php on line 20
+[22-Jan-2015 20:26:08 America/Denver] PHP Fatal error:  Class 'Symfony\Component\Finder\Comparator\Comparator' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/finder/Symfony/Component/Finder/Comparator/NumberComparator.php on line 37

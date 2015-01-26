@@ -1,0 +1,5 @@
+[09-Jan-2015 23:26:26 America/Denver] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/Exception/FrameTest.php on line 13
+[09-Jan-2015 23:36:19 America/Denver] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/Exception/InspectorTest.php on line 15
+[22-Jan-2015 20:25:25 America/Denver] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/Exception/FrameCollectionTest.php on line 13
+[22-Jan-2015 20:25:25 America/Denver] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/Exception/InspectorTest.php on line 15
+[22-Jan-2015 20:25:25 America/Denver] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/Exception/FrameTest.php on line 13

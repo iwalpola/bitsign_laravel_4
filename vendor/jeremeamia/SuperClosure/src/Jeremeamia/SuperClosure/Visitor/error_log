@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:07 America/Denver] PHP Fatal error:  Class 'PHPParser_NodeVisitorAbstract' not found in /home3/runaroun/public_html/bitsign/vendor/jeremeamia/SuperClosure/src/Jeremeamia/SuperClosure/Visitor/MagicConstantVisitor.php on line 15
+[22-Jan-2015 20:26:08 America/Denver] PHP Fatal error:  Class 'PHPParser_NodeVisitorAbstract' not found in /home3/runaroun/public_html/bitsign/vendor/jeremeamia/SuperClosure/src/Jeremeamia/SuperClosure/Visitor/ClosureFinderVisitor.php on line 13

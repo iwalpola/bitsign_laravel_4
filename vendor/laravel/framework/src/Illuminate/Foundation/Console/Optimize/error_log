@@ -1,0 +1,1 @@
+[22-Jan-2015 20:26:47 America/Denver] PHP Notice:  Undefined variable: app in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Foundation/Console/Optimize/config.php on line 3

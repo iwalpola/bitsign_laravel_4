@@ -1,0 +1,4 @@
+[22-Jan-2015 20:26:26 America/Denver] PHP Fatal error:  Cannot redeclare iconv() in /home3/runaroun/public_html/bitsign/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/iconv.php on line 18
+[22-Jan-2015 20:26:26 America/Denver] PHP Fatal error:  Cannot redeclare normalizer_is_normalized() in /home3/runaroun/public_html/bitsign/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/intl.php on line 17
+[22-Jan-2015 20:26:27 America/Denver] PHP Fatal error:  Cannot redeclare mb_convert_encoding() in /home3/runaroun/public_html/bitsign/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/mbstring.php on line 20
+[22-Jan-2015 20:26:27 America/Denver] PHP Fatal error:  Cannot redeclare utf8_encode() in /home3/runaroun/public_html/bitsign/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/utf8_encode.php on line 13

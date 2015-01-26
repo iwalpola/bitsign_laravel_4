@@ -1,0 +1,2 @@
+[22-Jan-2015 20:25:56 America/Denver] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Hashing/HashServiceProvider.php on line 5
+[22-Jan-2015 20:25:57 America/Denver] PHP Fatal error:  Interface 'Illuminate\Hashing\HasherInterface' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Hashing/BcryptHasher.php on line 3

@@ -1,0 +1,16 @@
+[09-Jan-2015 23:09:59 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/ClientTest.php on line 24
+[09-Jan-2015 23:13:04 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/HelpersTest.php on line 20
+[09-Jan-2015 23:26:39 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/ResponseErrorTest.php on line 20
+[09-Jan-2015 23:27:44 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/ResponseQueuedTest.php on line 20
+[09-Jan-2015 23:29:34 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/ServerExceptionTest.php on line 20
+[09-Jan-2015 23:30:14 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/ClientExceptionTest.php on line 20
+[09-Jan-2015 23:31:49 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/PredisExceptionTest.php on line 20
+[09-Jan-2015 23:50:09 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/CommunicationExceptionTest.php on line 21
+[22-Jan-2015 20:25:16 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/ClientExceptionTest.php on line 20
+[22-Jan-2015 20:25:16 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/ClientTest.php on line 24
+[22-Jan-2015 20:25:16 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/HelpersTest.php on line 20
+[22-Jan-2015 20:25:16 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/CommunicationExceptionTest.php on line 21
+[22-Jan-2015 20:25:17 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/PredisExceptionTest.php on line 20
+[22-Jan-2015 20:25:17 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/ServerExceptionTest.php on line 20
+[22-Jan-2015 20:25:17 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/ResponseQueuedTest.php on line 20
+[22-Jan-2015 20:25:17 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/ResponseErrorTest.php on line 20

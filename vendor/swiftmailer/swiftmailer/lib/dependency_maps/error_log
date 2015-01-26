@@ -1,0 +1,4 @@
+[22-Jan-2015 20:25:21 America/Denver] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php on line 5
+[22-Jan-2015 20:25:21 America/Denver] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/dependency_maps/message_deps.php on line 3
+[22-Jan-2015 20:25:21 America/Denver] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php on line 3
+[22-Jan-2015 20:25:22 America/Denver] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php on line 3

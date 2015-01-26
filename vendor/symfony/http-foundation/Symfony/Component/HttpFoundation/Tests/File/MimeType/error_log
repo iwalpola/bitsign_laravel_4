@@ -1,0 +1,1 @@
+[22-Jan-2015 20:26:53 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/File/MimeType/MimeTypeTest.php on line 21

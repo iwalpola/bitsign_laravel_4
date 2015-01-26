@@ -1,0 +1,2 @@
+[09-Jan-2015 23:23:45 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/phpseclib/phpseclib/tests/PhpseclibTestCase.php on line 9
+[22-Jan-2015 20:25:04 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/phpseclib/phpseclib/tests/PhpseclibTestCase.php on line 9

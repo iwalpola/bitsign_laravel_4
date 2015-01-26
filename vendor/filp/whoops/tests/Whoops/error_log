@@ -1,0 +1,4 @@
+[09-Jan-2015 23:01:24 America/Denver] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/RunTest.php on line 18
+[09-Jan-2015 23:02:15 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/TestCase.php on line 11
+[22-Jan-2015 20:25:10 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/TestCase.php on line 11
+[22-Jan-2015 20:25:10 America/Denver] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/tests/Whoops/RunTest.php on line 18

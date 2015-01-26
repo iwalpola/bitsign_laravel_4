@@ -1,0 +1,2 @@
+[22-Jan-2015 20:26:15 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Command/Processor/ProcessorChainTest.php on line 20
+[22-Jan-2015 20:26:15 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Command/Processor/KeyPrefixProcessorTest.php on line 20

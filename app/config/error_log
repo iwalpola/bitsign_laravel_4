@@ -1,0 +1,15 @@
+[09-Jan-2015 22:34:49 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/app.php on line 123
+[09-Jan-2015 22:36:57 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/cache.php on line 31
+[09-Jan-2015 22:38:24 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/session.php on line 47
+[22-Jan-2015 20:24:30 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/app.php on line 123
+[22-Jan-2015 20:24:33 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/cache.php on line 31
+[22-Jan-2015 20:24:33 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/session.php on line 47
+[23-Jan-2015 12:00:42 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/session.php on line 47
+[24-Jan-2015 15:59:46 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/app.php on line 123
+[24-Jan-2015 17:18:10 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/cache.php on line 31
+[24-Jan-2015 17:53:37 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/session.php on line 47
+[24-Jan-2015 19:44:43 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/session.php on line 47
+[24-Jan-2015 23:05:58 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/app.php on line 123
+[25-Jan-2015 03:35:22 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/cache.php on line 31
+[25-Jan-2015 04:51:14 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/app.php on line 123
+[25-Jan-2015 06:07:53 America/Denver] PHP Fatal error:  Call to undefined function storage_path() in /home3/runaroun/public_html/bitsign/app/config/session.php on line 47

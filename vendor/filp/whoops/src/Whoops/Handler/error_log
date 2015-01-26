@@ -1,0 +1,10 @@
+[09-Jan-2015 23:13:30 America/Denver] PHP Fatal error:  Interface 'Whoops\Handler\HandlerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/src/Whoops/Handler/Handler.php on line 17
+[09-Jan-2015 23:29:39 America/Denver] PHP Fatal error:  Class 'Whoops\Handler\Handler' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php on line 17
+[09-Jan-2015 23:36:34 America/Denver] PHP Fatal error:  Class 'Whoops\Handler\Handler' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php on line 12
+[09-Jan-2015 23:41:50 America/Denver] PHP Fatal error:  Class 'Whoops\Handler\Handler' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php on line 19
+[09-Jan-2015 23:44:14 America/Denver] PHP Fatal error:  Class 'Whoops\Handler\Handler' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/src/Whoops/Handler/JsonResponseHandler.php on line 17
+[22-Jan-2015 20:25:26 America/Denver] PHP Fatal error:  Interface 'Whoops\Handler\HandlerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/src/Whoops/Handler/Handler.php on line 17
+[22-Jan-2015 20:25:26 America/Denver] PHP Fatal error:  Class 'Whoops\Handler\Handler' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php on line 19
+[22-Jan-2015 20:25:26 America/Denver] PHP Fatal error:  Class 'Whoops\Handler\Handler' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/src/Whoops/Handler/JsonResponseHandler.php on line 17
+[22-Jan-2015 20:25:26 America/Denver] PHP Fatal error:  Class 'Whoops\Handler\Handler' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php on line 17
+[22-Jan-2015 20:25:26 America/Denver] PHP Fatal error:  Class 'Whoops\Handler\Handler' not found in /home3/runaroun/public_html/bitsign/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php on line 12
