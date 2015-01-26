@@ -1,18 +1,9 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the Closure to execute when that URI is requested.
-|
-*/
+/* Index View */
 
 Route::get('/', 'HomeController@showWelcome');
-Route::get('/demodash', 'DashController@demodash');
 
-Route::get('/helloLaravel','TestController@returnView');
-Route::get('/demo','HomeController@showDemo');
+/* Dash View Loader */
+
+Route::get('/dash', 'DashController@showDash');

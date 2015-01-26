@@ -9,7 +9,7 @@ class DashController extends BaseController {
 	|
 	*/
 
-	public function demoDash()
+	public function showDash()
 	{
 		return View::make('layouts.dashboard');
 	}
