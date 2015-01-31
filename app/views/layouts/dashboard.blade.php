@@ -22,7 +22,7 @@
 	</head>
 <body>
 <!--Start Header-->
-<div id="screensaver">
+<!--<div id="screensaver">
 	<canvas id="canvas"></canvas>
 	<i class="fa fa-lock" id="screen_unlock"></i>
 </div>
@@ -43,7 +43,7 @@
 		<div class="devoops-modal-bottom">
 		</div>
 	</div>
-</div>
+</div> -->
 <header class="navbar">
 	<div class="container-fluid expanded-panel">
 		<div class="row">
@@ -105,13 +105,15 @@
 			<ul class="nav main-menu">
 				<li>
 					<a href="ajax/my_signatures.html" class="active ajax-link">
-						<i class="fa fa-btc"></i>
+						
+  							<i class="fa fa-shield fa-lg"></i>
+ 							 
 						<span class="hidden-xs">My Bitsign</span>
 					</a>
 				</li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle">
-						<i class="fa fa-pencil-square-o"></i>
+						<i class="fa fa-pencil-square-o fa-1x"></i>
 						 <span class="hidden-xs">Signatures</span>
 					</a>
 					<ul class="dropdown-menu">
@@ -125,8 +127,8 @@
 						<span class="hidden-xs">Contracts</span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a class="ajax-link" href="ajax/my_contracts.html">My Contracts</a></li>
-						<li><a class="ajax-link" href="ajax/new_contract.html">New Contract</a></li>
+						<li><a class="ajax-link" href="contracts">My Contracts</a></li>
+						<li><a class="ajax-link" href="contracts/create">New Contract</a></li>
 						<li><a class="ajax-link" href="ajax/import_doc.html">Import a document</a></li>
 					</ul>
 				</li>
@@ -163,6 +165,6 @@
 <script src="plugins/tinymce/tinymce.min.js"></script>
 <script src="plugins/tinymce/jquery.tinymce.min.js"></script>
 <!-- All functions for this theme + document.ready processing -->
-<script src="js/devoops.js"></script>
+<script src="js/bitsign.js"></script>
 </body>
 </html>
