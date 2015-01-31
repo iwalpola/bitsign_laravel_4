@@ -1,1 +1,0 @@
-[22-Jan-2015 20:26:42 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Tests/Debug/TraceableEventDispatcherTest.php on line 24

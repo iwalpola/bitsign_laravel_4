@@ -1,3 +1,0 @@
-[22-Jan-2015 20:26:13 America/Denver] PHP Fatal error:  Interface 'Predis\Command\Processor\CommandProcessorChainInterface' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/lib/Predis/Command/Processor/ProcessorChain.php on line 21
-[22-Jan-2015 20:26:13 America/Denver] PHP Fatal error:  Interface 'Predis\Command\Processor\CommandProcessorInterface' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/lib/Predis/Command/Processor/CommandProcessorChainInterface.php on line 20
-[22-Jan-2015 20:26:13 America/Denver] PHP Fatal error:  Interface 'Predis\Command\Processor\CommandProcessorInterface' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/lib/Predis/Command/Processor/KeyPrefixProcessor.php on line 24

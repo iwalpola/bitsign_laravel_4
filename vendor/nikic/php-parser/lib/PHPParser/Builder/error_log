@@ -1,6 +1,0 @@
-[22-Jan-2015 20:25:48 America/Denver] PHP Fatal error:  Class 'PHPParser_BuilderAbstract' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Builder/Class.php on line 4
-[22-Jan-2015 20:25:48 America/Denver] PHP Fatal error:  Class 'PHPParser_BuilderAbstract' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Builder/Method.php on line 4
-[22-Jan-2015 20:25:48 America/Denver] PHP Fatal error:  Class 'PHPParser_BuilderAbstract' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Builder/Function.php on line 4
-[22-Jan-2015 20:25:48 America/Denver] PHP Fatal error:  Class 'PHPParser_BuilderAbstract' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Builder/Interface.php on line 4
-[22-Jan-2015 20:25:48 America/Denver] PHP Fatal error:  Class 'PHPParser_BuilderAbstract' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Builder/Param.php on line 4
-[22-Jan-2015 20:25:48 America/Denver] PHP Fatal error:  Class 'PHPParser_BuilderAbstract' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Builder/Property.php on line 4

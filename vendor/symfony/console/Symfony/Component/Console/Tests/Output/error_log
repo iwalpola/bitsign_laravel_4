@@ -1,4 +1,0 @@
-[22-Jan-2015 20:26:37 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/console/Symfony/Component/Console/Tests/Output/OutputTest.php on line 18
-[22-Jan-2015 20:26:38 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/console/Symfony/Component/Console/Tests/Output/ConsoleOutputTest.php on line 18
-[22-Jan-2015 20:26:38 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/console/Symfony/Component/Console/Tests/Output/NullOutputTest.php on line 18
-[22-Jan-2015 20:26:38 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/console/Symfony/Component/Console/Tests/Output/StreamOutputTest.php on line 18

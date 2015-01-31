@@ -1,2 +1,0 @@
-[22-Jan-2015 20:26:16 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\Controller\ControllerResolverInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Controller/ControllerResolver.php on line 29
-[22-Jan-2015 20:26:16 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\Controller\ControllerResolverInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php on line 23

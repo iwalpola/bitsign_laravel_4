@@ -1,2 +1,0 @@
-[22-Jan-2015 20:26:31 America/Denver] PHP Fatal error:  Class 'Illuminate\Support\Collection' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php on line 5
-[22-Jan-2015 20:26:31 America/Denver] PHP Fatal error:  Interface 'Illuminate\Support\Contracts\ArrayableInterface' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 23

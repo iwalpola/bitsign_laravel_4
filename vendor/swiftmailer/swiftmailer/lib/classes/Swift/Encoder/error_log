@@ -1,3 +1,0 @@
-[22-Jan-2015 20:26:28 America/Denver] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php on line 19
-[22-Jan-2015 20:26:28 America/Denver] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php on line 19
-[22-Jan-2015 20:26:28 America/Denver] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php on line 21

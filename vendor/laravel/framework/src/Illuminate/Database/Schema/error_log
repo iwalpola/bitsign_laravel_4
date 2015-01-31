@@ -1,1 +1,0 @@
-[22-Jan-2015 20:26:32 America/Denver] PHP Fatal error:  Class 'Illuminate\Database\Schema\Builder' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php on line 3

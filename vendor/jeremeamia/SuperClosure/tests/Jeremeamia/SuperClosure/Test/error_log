@@ -1,3 +1,0 @@
-[22-Jan-2015 20:26:07 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/jeremeamia/SuperClosure/tests/Jeremeamia/SuperClosure/Test/ClosureLocationTest.php on line 8
-[22-Jan-2015 20:26:07 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/jeremeamia/SuperClosure/tests/Jeremeamia/SuperClosure/Test/SerializableClosureTest.php on line 11
-[22-Jan-2015 20:26:07 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/jeremeamia/SuperClosure/tests/Jeremeamia/SuperClosure/Test/ClosureParserTest.php on line 8

@@ -1,3 +1,0 @@
-[22-Jan-2015 20:26:28 America/Denver] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php on line 20
-[22-Jan-2015 20:26:28 America/Denver] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php on line 20
-[22-Jan-2015 20:26:28 America/Denver] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php on line 19

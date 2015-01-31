@@ -1,1 +1,0 @@
-[22-Jan-2015 20:26:56 America/Denver] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\DependencyInjection\Extension' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Tests/Fixtures/ExtensionPresentBundle/DependencyInjection/ExtensionPresentExtension.php on line 18

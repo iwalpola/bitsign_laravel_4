@@ -1,1 +1,0 @@
-[22-Jan-2015 20:26:08 America/Denver] PHP Fatal error:  Interface 'Predis\Cluster\Hash\HashGeneratorInterface' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/lib/Predis/Cluster/Hash/CRC16HashGenerator.php on line 20

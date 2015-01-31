@@ -1,1 +1,0 @@
-[22-Jan-2015 20:26:53 America/Denver] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/NativeFileSessionHandler.php on line 22

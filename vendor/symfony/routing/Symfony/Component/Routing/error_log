@@ -1,3 +1,0 @@
-[22-Jan-2015 20:25:36 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\Routing\RouteCompilerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/RouteCompiler.php on line 21
-[22-Jan-2015 20:25:36 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\Routing\RouterInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/Router.php on line 31
-[22-Jan-2015 20:25:37 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\Routing\Matcher\UrlMatcherInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/RouterInterface.php on line 24

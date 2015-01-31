@@ -1,1 +1,0 @@
-[22-Jan-2015 20:26:32 America/Denver] PHP Fatal error:  Interface 'Illuminate\Database\Migrations\MigrationRepositoryInterface' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php on line 5

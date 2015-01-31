@@ -1,4 +1,0 @@
-[09-Jan-2015 23:21:24 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/stack/builder/tests/unit/Stack/BuilderTest.php on line 12
-[09-Jan-2015 23:49:00 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/stack/builder/tests/unit/Stack/StackedHttpKernelTest.php on line 11
-[22-Jan-2015 20:25:49 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/stack/builder/tests/unit/Stack/StackedHttpKernelTest.php on line 11
-[22-Jan-2015 20:25:49 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/stack/builder/tests/unit/Stack/BuilderTest.php on line 12

@@ -1,3 +1,0 @@
-[22-Jan-2015 20:26:39 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/finder/Symfony/Component/Finder/Tests/Comparator/NumberComparatorTest.php on line 17
-[22-Jan-2015 20:26:39 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/finder/Symfony/Component/Finder/Tests/Comparator/DateComparatorTest.php on line 17
-[22-Jan-2015 20:26:39 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/finder/Symfony/Component/Finder/Tests/Comparator/ComparatorTest.php on line 17

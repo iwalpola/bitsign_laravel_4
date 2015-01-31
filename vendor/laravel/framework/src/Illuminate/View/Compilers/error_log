@@ -1,1 +1,0 @@
-[22-Jan-2015 20:26:33 America/Denver] PHP Fatal error:  Class 'Illuminate\View\Compilers\Compiler' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 5

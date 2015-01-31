@@ -1,7 +1,0 @@
-[22-Jan-2015 20:26:01 America/Denver] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Queue/FailConsoleServiceProvider.php on line 10
-[22-Jan-2015 20:26:02 America/Denver] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Queue/BeanstalkdQueue.php on line 7
-[22-Jan-2015 20:26:02 America/Denver] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Queue/RedisQueue.php on line 6
-[22-Jan-2015 20:26:02 America/Denver] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Queue/QueueServiceProvider.php on line 14
-[22-Jan-2015 20:26:02 America/Denver] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Queue/IronQueue.php on line 9
-[22-Jan-2015 20:26:02 America/Denver] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Queue/SqsQueue.php on line 6
-[22-Jan-2015 20:26:02 America/Denver] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Queue/SyncQueue.php on line 3

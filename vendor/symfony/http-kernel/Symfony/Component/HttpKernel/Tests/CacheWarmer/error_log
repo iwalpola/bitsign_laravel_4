@@ -1,2 +1,0 @@
-[22-Jan-2015 20:26:42 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Tests/CacheWarmer/CacheWarmerTest.php on line 17
-[22-Jan-2015 20:26:43 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Tests/CacheWarmer/CacheWarmerAggregateTest.php on line 19

@@ -1,2 +1,0 @@
-[09-Jan-2015 22:55:45 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_Constraint' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/PHPUnit/ArrayHasSameValuesConstraint.php on line 16
-[22-Jan-2015 20:25:02 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_Constraint' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/PHPUnit/ArrayHasSameValuesConstraint.php on line 16

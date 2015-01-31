@@ -1,1 +1,0 @@
-[22-Jan-2015 20:26:25 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\CssSelector\Parser\ParserInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/css-selector/Symfony/Component/CssSelector/Parser/Parser.php on line 27

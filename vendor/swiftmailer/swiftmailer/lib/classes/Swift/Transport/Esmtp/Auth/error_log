@@ -1,3 +1,0 @@
-[22-Jan-2015 20:26:55 America/Denver] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php on line 19
-[22-Jan-2015 20:26:55 America/Denver] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php on line 19
-[22-Jan-2015 20:26:55 America/Denver] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home3/runaroun/public_html/bitsign/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php on line 19

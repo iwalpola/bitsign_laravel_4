@@ -1,3 +1,0 @@
-[22-Jan-2015 20:26:03 America/Denver] PHP Fatal error:  Interface 'Illuminate\Support\Contracts\RenderableInterface' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/View/View.php on line 11
-[22-Jan-2015 20:26:03 America/Denver] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php on line 10
-[22-Jan-2015 20:26:03 America/Denver] PHP Fatal error:  Interface 'Illuminate\View\ViewFinderInterface' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 5

@@ -1,1 +1,0 @@
-[22-Jan-2015 20:26:09 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Session.php on line 29

@@ -1,2 +1,0 @@
-[09-Jan-2015 23:27:49 America/Denver] PHP Fatal error:  Class 'Predis\PubSub\AbstractPubSubContext' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/lib/Predis/PubSub/PubSubContext.php on line 26
-[22-Jan-2015 20:25:35 America/Denver] PHP Fatal error:  Class 'Predis\PubSub\AbstractPubSubContext' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/lib/Predis/PubSub/PubSubContext.php on line 26

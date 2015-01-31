@@ -1,2 +1,0 @@
-[22-Jan-2015 20:26:40 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/File/FileTest.php on line 18
-[22-Jan-2015 20:26:41 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/File/UploadedFileTest.php on line 17

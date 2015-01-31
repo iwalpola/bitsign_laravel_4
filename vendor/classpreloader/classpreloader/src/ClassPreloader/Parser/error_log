@@ -1,4 +1,0 @@
-[22-Jan-2015 20:25:29 America/Denver] PHP Fatal error:  Class 'ClassPreloader\Parser\AbstractNodeVisitor' not found in /home3/runaroun/public_html/bitsign/vendor/classpreloader/classpreloader/src/ClassPreloader/Parser/FileVisitor.php on line 9
-[22-Jan-2015 20:25:29 America/Denver] PHP Fatal error:  Class 'PHPParser_NodeTraverser' not found in /home3/runaroun/public_html/bitsign/vendor/classpreloader/classpreloader/src/ClassPreloader/Parser/NodeTraverser.php on line 9
-[22-Jan-2015 20:25:29 America/Denver] PHP Fatal error:  Class 'ClassPreloader\Parser\AbstractNodeVisitor' not found in /home3/runaroun/public_html/bitsign/vendor/classpreloader/classpreloader/src/ClassPreloader/Parser/DirVisitor.php on line 9
-[22-Jan-2015 20:25:29 America/Denver] PHP Fatal error:  Class 'PHPParser_NodeVisitorAbstract' not found in /home3/runaroun/public_html/bitsign/vendor/classpreloader/classpreloader/src/ClassPreloader/Parser/AbstractNodeVisitor.php on line 9

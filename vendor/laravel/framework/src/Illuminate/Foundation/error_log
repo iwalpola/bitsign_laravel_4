@@ -1,3 +1,0 @@
-[22-Jan-2015 20:25:53 America/Denver] PHP Fatal error:  Class 'Illuminate\Container\Container' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 23
-[22-Jan-2015 20:25:53 America/Denver] PHP Notice:  Undefined variable: app in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Foundation/start.php on line 62
-[22-Jan-2015 20:25:53 America/Denver] PHP Fatal error:  Call to a member function instance() on a non-object in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Foundation/start.php on line 62

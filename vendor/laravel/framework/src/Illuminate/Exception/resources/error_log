@@ -1,2 +1,0 @@
-[22-Jan-2015 20:26:30 America/Denver] PHP Notice:  Undefined variable: e in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Exception/resources/pretty-template.php on line 15
-[22-Jan-2015 20:26:30 America/Denver] PHP Fatal error:  Function name must be a string in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/Exception/resources/pretty-template.php on line 15

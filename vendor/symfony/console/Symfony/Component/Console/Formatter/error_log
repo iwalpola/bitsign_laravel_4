@@ -1,2 +1,0 @@
-[22-Jan-2015 20:26:05 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\Console\Formatter\OutputFormatterInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatter.php on line 22
-[22-Jan-2015 20:26:05 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\Console\Formatter\OutputFormatterStyleInterface' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterStyle.php on line 22

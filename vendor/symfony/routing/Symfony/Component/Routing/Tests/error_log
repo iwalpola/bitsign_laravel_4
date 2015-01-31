@@ -1,6 +1,0 @@
-[22-Jan-2015 20:26:12 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/Tests/CompiledRouteTest.php on line 17
-[22-Jan-2015 20:26:13 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/Tests/RequestContextTest.php on line 18
-[22-Jan-2015 20:26:13 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouteCollectionTest.php on line 19
-[22-Jan-2015 20:26:13 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouteCompilerTest.php on line 17
-[22-Jan-2015 20:26:13 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouteTest.php on line 17
-[22-Jan-2015 20:26:13 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouterTest.php on line 18

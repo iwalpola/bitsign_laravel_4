@@ -1,2 +1,0 @@
-[22-Jan-2015 20:26:33 America/Denver] PHP Fatal error:  Class 'Illuminate\View\Engines\PhpEngine' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php on line 5
-[22-Jan-2015 20:26:34 America/Denver] PHP Fatal error:  Interface 'Illuminate\View\Engines\EngineInterface' not found in /home3/runaroun/public_html/bitsign/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 5

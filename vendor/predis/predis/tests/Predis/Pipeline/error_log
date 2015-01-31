@@ -1,4 +1,0 @@
-[22-Jan-2015 20:25:47 America/Denver] PHP Fatal error:  Interface 'Predis\ResponseObjectInterface' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Pipeline/MultiExecExecutorTest.php on line 26
-[22-Jan-2015 20:25:47 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Pipeline/FireAndForgetExecutorTest.php on line 22
-[22-Jan-2015 20:25:47 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Pipeline/PipelineContextTest.php on line 23
-[22-Jan-2015 20:25:48 America/Denver] PHP Fatal error:  Class 'PredisTestCase' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/tests/Predis/Pipeline/StandardExecutorTest.php on line 24

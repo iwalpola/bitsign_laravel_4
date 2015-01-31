@@ -1,8 +1,0 @@
-[09-Jan-2015 23:12:40 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/TestCase.php on line 15
-[09-Jan-2015 23:19:30 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/LoggerTest.php on line 18
-[09-Jan-2015 23:30:19 America/Denver] PHP Fatal error:  Class 'Psr\Log\Test\LoggerInterfaceTest' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/PsrLogCompatTest.php on line 20
-[09-Jan-2015 23:30:59 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/ErrorHandlerTest.php on line 17
-[22-Jan-2015 20:25:09 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/ErrorHandlerTest.php on line 17
-[22-Jan-2015 20:25:10 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/TestCase.php on line 15
-[22-Jan-2015 20:25:10 America/Denver] PHP Fatal error:  Class 'Psr\Log\Test\LoggerInterfaceTest' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/PsrLogCompatTest.php on line 20
-[22-Jan-2015 20:25:10 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/tests/Monolog/LoggerTest.php on line 18

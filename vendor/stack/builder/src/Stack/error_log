@@ -1,2 +1,0 @@
-[09-Jan-2015 23:20:39 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home3/runaroun/public_html/bitsign/vendor/stack/builder/src/Stack/StackedHttpKernel.php on line 10
-[22-Jan-2015 20:25:20 America/Denver] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home3/runaroun/public_html/bitsign/vendor/stack/builder/src/Stack/StackedHttpKernel.php on line 10

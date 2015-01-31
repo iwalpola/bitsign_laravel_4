@@ -1,2 +1,0 @@
-[22-Jan-2015 20:26:08 America/Denver] PHP Fatal error:  Interface 'Predis\Cluster\Distribution\DistributionStrategyInterface' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/lib/Predis/Cluster/Distribution/HashRing.php on line 24
-[22-Jan-2015 20:26:08 America/Denver] PHP Fatal error:  Class 'Predis\Cluster\Distribution\HashRing' not found in /home3/runaroun/public_html/bitsign/vendor/predis/predis/lib/Predis/Cluster/Distribution/KetamaPureRing.php on line 23

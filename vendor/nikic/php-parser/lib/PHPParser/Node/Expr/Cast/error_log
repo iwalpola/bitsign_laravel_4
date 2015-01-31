@@ -1,7 +1,0 @@
-[22-Jan-2015 20:26:43 America/Denver] PHP Fatal error:  Class 'PHPParser_Node_Expr_Cast' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/Cast/Int.php on line 4
-[22-Jan-2015 20:26:44 America/Denver] PHP Fatal error:  Class 'PHPParser_Node_Expr_Cast' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/Cast/Double.php on line 4
-[22-Jan-2015 20:26:44 America/Denver] PHP Fatal error:  Class 'PHPParser_Node_Expr_Cast' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/Cast/Unset.php on line 4
-[22-Jan-2015 20:26:44 America/Denver] PHP Fatal error:  Class 'PHPParser_Node_Expr_Cast' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/Cast/String.php on line 4
-[22-Jan-2015 20:26:44 America/Denver] PHP Fatal error:  Class 'PHPParser_Node_Expr_Cast' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/Cast/Bool.php on line 4
-[22-Jan-2015 20:26:44 America/Denver] PHP Fatal error:  Class 'PHPParser_Node_Expr_Cast' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/Cast/Object.php on line 4
-[22-Jan-2015 20:26:44 America/Denver] PHP Fatal error:  Class 'PHPParser_Node_Expr_Cast' not found in /home3/runaroun/public_html/bitsign/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/Cast/Array.php on line 4

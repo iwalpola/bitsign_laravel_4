@@ -1,2 +1,0 @@
-[09-Jan-2015 23:04:04 America/Denver] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/src/Monolog/Logger.php on line 28
-[22-Jan-2015 20:25:09 America/Denver] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home3/runaroun/public_html/bitsign/vendor/monolog/monolog/src/Monolog/Logger.php on line 28
