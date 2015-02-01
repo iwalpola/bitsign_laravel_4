@@ -192,8 +192,12 @@ pre code {
 .login-form label{
   color: #fff;
 }
-.login-form .login-title{
+.login-title{
   color: gold;
+  padding-right: 5px;
+}
+.login-title img{
+  padding-right: 5px;
 }
 /* ======= Promo Section ======= */
 .promo {
