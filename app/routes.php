@@ -8,26 +8,31 @@ Route::when('*', 'csrf', ['post', 'put', 'patch']);
 
 Route::get('/', ['as' => 'home','uses' =>'HomeController@showWelcome']);
 
-/*Routing for Signatures Controller*/
-
-Route::resource('signatures', 'SignaturesController', 
-	array('only' => array('index', 'create', 'show'))); 
-
 /*Routing for Sessionss Controller*/
 
-Route::get('login','SessionsController@create');
+		Route::get('login','SessionsController@create');
 
-Route::get('logout','SessionsController@destroy');
+		Route::get('logout','SessionsController@destroy');
 
-Route::resource('sessions', 'SessionsController');
+		Route::resource('sessions', 'SessionsController');
 
-/*Routing for Contractss Controller*/
+/* Protected Route Group */
 
-Route::get('contracts/import', ['as' => 'contracts.import', 'uses' => 'ContractsController@import']);
+Route::group(array('before' => 'auth'), function()
+{
+		    /*Routing for Signatures Controller*/
 
-Route::resource('contracts', 'ContractsController', 
-	array('only' => array('index', 'create', 'show')));
+		Route::resource('signatures', 'SignaturesController', 
+			array('only' => array('index', 'create', 'show')));
 
-/* Dash View Loader */
+		/*Routing for Contractss Controller*/
 
-Route::get('dash', ['as'=>'dashboard', 'uses'=>'DashController@showDash'])->before('auth');
+		Route::get('contracts/import', ['as' => 'contracts.import', 'uses' => 'ContractsController@import']);
+
+		Route::resource('contracts', 'ContractsController', 
+			array('only' => array('index', 'create', 'show')));
+
+		/* Dash View Loader */
+
+		Route::get('dash', ['as'=>'dashboard', 'uses'=>'DashController@showDash'])->before('auth');
+});
