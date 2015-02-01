@@ -26,7 +26,7 @@ Route::resource('contracts', 'ContractsController',
 
 /* Index View */
 
-Route::get('/', 'HomeController@showWelcome');
+Route::get('/', ['as' => 'home','HomeController@showWelcome']);
 
 /* Dash View Loader */
 
