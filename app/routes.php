@@ -8,13 +8,13 @@ Route::when('*', 'csrf', ['post', 'put', 'patch']);
 
 Route::get('/', ['as' => 'home','uses' =>'HomeController@showWelcome']);
 
-/*Routing for Sessionss Controller*/
+/*Routing for Sessions Controller*/
 
 		Route::get('login','SessionsController@create');
 
 		Route::get('logout','SessionsController@destroy');
 
-		Route::resource('sessions', 'SessionsController');
+		Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store', 'destroy']]);
 
 /* Protected Route Group */
 
@@ -25,7 +25,7 @@ Route::group(array('before' => 'auth'), function()
 		Route::resource('signatures', 'SignaturesController', 
 			array('only' => array('index', 'create', 'show')));
 
-		/*Routing for Contractss Controller*/
+		/*Routing for Contracts Controller*/
 
 		Route::get('contracts/import', ['as' => 'contracts.import', 'uses' => 'ContractsController@import']);
 
