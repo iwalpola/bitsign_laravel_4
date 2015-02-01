@@ -2,7 +2,7 @@
 <header id="header" class="header">  
     <div class="container">            
         <h1 class="logo pull-left">
-            <a class="scrollto" href="#promo">
+            <a class="scrollto" href="/">
                 <span class="logo-title">BitSign</span>
             </a>
         </h1><!--//logo-->              
@@ -17,10 +17,10 @@
             </div><!--//navbar-header-->            
             <div class="navbar-collapse collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                    <li class="active nav-item sr-only"><a class="scrollto" href="/">Home</a></li>
                     <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>
                     <li class="nav-item"><a class="scrollto" href="#faq">FAQ</a></li>
-                    <li class="nav-item"><a class="scrollto" href="#login">Login</a></li>
+                    <li class="nav-item"><a href="login">Login</a></li>
                 </ul><!--//nav-->
             </div><!--//navabr-collapse-->
         </nav><!--//main-nav-->

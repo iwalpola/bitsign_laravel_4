@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'sep_social',
+			'database'  => 'bitsign_test',
 			'username'  => 'root',
-			'password'  => '12345',
+			'password'  => 'BQtqdfZRSJG3jpwj',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

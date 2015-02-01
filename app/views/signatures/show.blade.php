@@ -1,0 +1,1 @@
+C:\wamp\www\bitsign\app/views/signatures/show.blade.php

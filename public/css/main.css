@@ -179,6 +179,22 @@ pre code {
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
+/* ======= Login Form ======= */
+.login-container{
+  background-color: lightgray;
+  padding-bottom: 10%;
+}
+.login-form{
+  border-radius: 5px;
+  background: cadetblue;
+  padding: 5% 0 10% 0;
+}
+.login-form label{
+  color: #fff;
+}
+.login-form .login-title{
+  color: gold;
+}
 /* ======= Promo Section ======= */
 .promo {
   background: cadetblue;

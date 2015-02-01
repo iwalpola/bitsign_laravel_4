@@ -4,12 +4,25 @@
 
 Route::when('*', 'csrf', ['post', 'put', 'patch']);
 
-/*Routing for Core Controllers*/
+/*Routing for Signatures Controller*/
 
-Route::resource('signature', 'SignatureController');
+Route::resource('signatures', 'SignaturesController', 
+	array('only' => array('index', 'create', 'show'))); 
 
-Route::resource('contracts', 'ContractController', 
-	array('only' => array('index', 'create')));
+/*Routing for Sessionss Controller*/
+
+Route::get('login','SessionsController@create');
+
+Route::get('logout','SessionsController@destroy');
+
+Route::resource('sessions', 'SessionsController');
+
+/*Routing for Contractss Controller*/
+
+Route::get('contracts/import', ['as' => 'contracts.import', 'uses' => 'ContractsController@import']);
+
+Route::resource('contracts', 'ContractsController', 
+	array('only' => array('index', 'create', 'show')));
 
 /* Index View */
 
@@ -18,7 +31,3 @@ Route::get('/', 'HomeController@showWelcome');
 /* Dash View Loader */
 
 Route::get('dash', 'DashController@showDash');
-
-/*Auth redirection */
-
-Route::get('login', 'AuthController@login');

@@ -104,7 +104,7 @@
 		<div id="sidebar-left" class="col-xs-2 col-sm-2">
 			<ul class="nav main-menu">
 				<li>
-					<a href="ajax/my_signatures.html" class="active ajax-link">
+					<a href="dashboard" class="active ajax-link">
 						
   							<i class="fa fa-shield fa-lg"></i>
  							 
@@ -117,7 +117,7 @@
 						 <span class="hidden-xs">Signatures</span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a class="ajax-link" href="ajax/my_signatures.html">My Signatures</a></li>
+						<li><a class="ajax-link" href="signatures">My Signatures</a></li>
 						<li><a class="ajax-link" href="ajax/new_signature_1.html">Sign New Contract</a></li>
 					</ul>
 				</li>
@@ -129,7 +129,7 @@
 					<ul class="dropdown-menu">
 						<li><a class="ajax-link" href="contracts">My Contracts</a></li>
 						<li><a class="ajax-link" href="contracts/create">New Contract</a></li>
-						<li><a class="ajax-link" href="ajax/import_doc.html">Import a document</a></li>
+						<li><a class="ajax-link" href="contracts/import">Import a document</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">

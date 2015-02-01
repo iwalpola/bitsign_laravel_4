@@ -1,31 +1,32 @@
 <?php
 
-class ContractController extends \BaseController {
+class SessionsController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
+	 * GET /sessions
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
-		//returns the fetched contracts index
-		return View::make('layouts.contracts.index');
+		//
 	}
 
 	/**
 	 * Show the form for creating a new resource.
+	 * GET /sessions/create
 	 *
 	 * @return Response
 	 */
 	public function create()
 	{
-		//returns the fetched contracts index
-		return View::make('layouts.contracts.create');
+		return View::make('sessions.create');
 	}
 
 	/**
 	 * Store a newly created resource in storage.
+	 * POST /sessions
 	 *
 	 * @return Response
 	 */
@@ -36,6 +37,7 @@ class ContractController extends \BaseController {
 
 	/**
 	 * Display the specified resource.
+	 * GET /sessions/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -47,6 +49,7 @@ class ContractController extends \BaseController {
 
 	/**
 	 * Show the form for editing the specified resource.
+	 * GET /sessions/{id}/edit
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -58,6 +61,7 @@ class ContractController extends \BaseController {
 
 	/**
 	 * Update the specified resource in storage.
+	 * PUT /sessions/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -69,6 +73,7 @@ class ContractController extends \BaseController {
 
 	/**
 	 * Remove the specified resource from storage.
+	 * DELETE /sessions/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response

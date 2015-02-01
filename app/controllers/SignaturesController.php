@@ -1,19 +1,22 @@
 <?php
 
-class SignatureController extends \BaseController {
+class SignaturesController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
+	 * GET /signatures
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
-		//
+		//returns the fetched signatures index
+		return View::make('signatures.index');
 	}
 
 	/**
 	 * Show the form for creating a new resource.
+	 * GET /signatures/create
 	 *
 	 * @return Response
 	 */
@@ -24,6 +27,7 @@ class SignatureController extends \BaseController {
 
 	/**
 	 * Store a newly created resource in storage.
+	 * POST /signatures
 	 *
 	 * @return Response
 	 */
@@ -34,6 +38,7 @@ class SignatureController extends \BaseController {
 
 	/**
 	 * Display the specified resource.
+	 * GET /signatures/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -45,6 +50,7 @@ class SignatureController extends \BaseController {
 
 	/**
 	 * Show the form for editing the specified resource.
+	 * GET /signatures/{id}/edit
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -56,6 +62,7 @@ class SignatureController extends \BaseController {
 
 	/**
 	 * Update the specified resource in storage.
+	 * PUT /signatures/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -67,6 +74,7 @@ class SignatureController extends \BaseController {
 
 	/**
 	 * Remove the specified resource from storage.
+	 * DELETE /signatures/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response

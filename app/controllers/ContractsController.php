@@ -1,15 +1,17 @@
 <?php
 
-class AuthController extends \BaseController {
+class ContractsController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
+	 * GET /contracts
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
-		//
+		//returns the fetched contracts index
+		return View::make('contracts.index');
 	}
 
 	/**
@@ -19,21 +21,18 @@ class AuthController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		//returns the TinyMCE Editor
+		return View::make('contracts.create');
 	}
 
-	/**
-	 * Store a newly created resource in storage.
-	 *
-	 * @return Response
-	 */
-	public function store()
+public function import()
 	{
-		//
+		//returns an uploader
+		return View::make('import.doc');
 	}
-
 	/**
 	 * Display the specified resource.
+	 * GET /contracts/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -45,6 +44,7 @@ class AuthController extends \BaseController {
 
 	/**
 	 * Show the form for editing the specified resource.
+	 * GET /contracts/{id}/edit
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -56,6 +56,7 @@ class AuthController extends \BaseController {
 
 	/**
 	 * Update the specified resource in storage.
+	 * PUT /contracts/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -67,6 +68,7 @@ class AuthController extends \BaseController {
 
 	/**
 	 * Remove the specified resource from storage.
+	 * DELETE /contracts/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
