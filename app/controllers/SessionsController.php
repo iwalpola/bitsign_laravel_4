@@ -32,13 +32,9 @@ class SessionsController extends \BaseController {
 	 */
 	public function store()
 	{
-		$input= Input::all();
-		$attempt = Auth::attempt([
-			'username' => $input['username'],
-			'password' => $input['password']
-			]);
+		$attempt = Auth::attempt(['username' => Input::get("username"), 'password' => Input::get("password")]);
 		if($attempt) return Redirect::intended('dash');
-		dd(Hash::make($input['password']), $attempt);
+		dd(Hash::make(Input::get("password")), $attempt);
 	}
 
 	/**
@@ -84,9 +80,9 @@ class SessionsController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+	public function destroy()
 	{
-		Auth:logout();
+		Auth::logout();
 
 		return Redirect::home();
 	}

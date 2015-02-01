@@ -4,6 +4,10 @@
 
 Route::when('*', 'csrf', ['post', 'put', 'patch']);
 
+/* Unprotected Index View */
+
+Route::get('/', ['as' => 'home','uses' =>'HomeController@showWelcome']);
+
 /*Routing for Signatures Controller*/
 
 Route::resource('signatures', 'SignaturesController', 
@@ -24,10 +28,6 @@ Route::get('contracts/import', ['as' => 'contracts.import', 'uses' => 'Contracts
 Route::resource('contracts', 'ContractsController', 
 	array('only' => array('index', 'create', 'show')));
 
-/* Index View */
-
-Route::get('/', ['as' => 'home','HomeController@showWelcome']);
-
 /* Dash View Loader */
 
-Route::get('dash', 'DashController@showDash');
+Route::get('dash', ['as'=>'dashboard', 'uses'=>'DashController@showDash'])->before('auth');

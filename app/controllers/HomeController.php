@@ -19,9 +19,4 @@ class HomeController extends BaseController {
 	{
 		return View::make('layouts.index');
 	}
-
-	public function showDemo()
-	{
-		return View::make('layouts.demo');
-	}
 }
