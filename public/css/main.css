@@ -189,7 +189,7 @@ pre code {
   background: cadetblue;
   padding: 5% 0 10% 0;
 }
-.login-form , .signup-form label {
+.login-form label , .signup-form label {
   color: #fff;
 }
 .login-title , .signup-title {

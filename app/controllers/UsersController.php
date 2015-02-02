@@ -22,7 +22,17 @@ class UsersController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$input = Input::only(['username','f_name','l_name','email','password']);
+		$input['password'] = Hash::make(Input::get('password'));
+		$valid=1;
+		if($valid){
+			$newUser = User::create($input);
+	    }
+	    if($newUser){
+	            Auth::login($newUser);
+	            return Redirect::route('dashboard');
+	        }
+        return Redirect::route('user.create')->withInput();
 	}
 
 	/**

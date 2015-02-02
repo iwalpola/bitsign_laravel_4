@@ -9,7 +9,7 @@
             <p class="intro">The act of signing a binding legal agreement using the bitcoin blockchain</p>
 
             <div class="btns">
-                <a class="btn btn-cta-secondary"  data-toggle="modal" data-target="#sign-up-modal">Sign Up Now!</a>
+                <a class="btn btn-cta-secondary" href="signup">Sign Up</a>
             </div>
          
                 </ul>
