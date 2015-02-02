@@ -33,8 +33,8 @@ class UsersController extends \BaseController {
 		$rules = array(
                 'username' => array( 'required', 'min:8', 'alpha_num' , 'unique:users'),
                 'email' => array( 'required', 'email', 'unique:users' ),
-                'f_name' => array( 'required', 'alpha_num' ),
-                'l_name' => array( 'required', 'alpha_num' ),
+                'f_name' => array( 'required', 'alpha' ),
+                'l_name' => array( 'required', 'alpha' ),
                 'password' => array( 'required', 'confirmed' )
             );
 		$input = Input::only(['username','f_name','l_name','email','password', 'password_confirmation']);
@@ -48,7 +48,11 @@ class UsersController extends \BaseController {
 	        }
 	    }
 	    $messages = $valid->getMessages();
-        return Redirect::route('users.create')->withInput()->withMessages($messages);
+	    foreach ($messages as $key => $value) {
+	    	$messages[$key] = $value[0];
+	    }
+	    //dd($messages);
+        return Redirect::route('users.create')->withMessages($messages)->withInput();
 	}
 
 	/**

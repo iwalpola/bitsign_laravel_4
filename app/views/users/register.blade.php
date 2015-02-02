@@ -8,6 +8,13 @@
     	<div class="signup-form">
     		<center>
 	    	<h1 class="signup-title"><img src="/img/logo.png">Sign Up</h1> <br>
+	    	@if (Session::get('messages') != NULL)
+	    	<div class="alert alert-warning">
+	    	@foreach (Session::get('messages') as $key => $value)
+	    		{{{$value}}} <br>
+	    	@endforeach
+	    	</div>
+	    	@endif
 		      	{{ Form::open(array('route' => 'users.store')) }}
 		      			<div class="form-group">
 			      			{{Form::label('f_name','First Name:')}}
