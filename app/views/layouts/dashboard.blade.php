@@ -61,7 +61,7 @@
 									<i class="fa fa-angle-down pull-right"></i>
 									<div class="user-mini pull-right">
 										<span class="welcome">Welcome,</span>
-										<span class="uname">Isuru Walpola</span>
+										<span class="uname">{{Auth::user()->f_name}} {{Auth::user()->l_name}}</span>
 									</div>
 								</a>
 								<ul class="dropdown-menu">

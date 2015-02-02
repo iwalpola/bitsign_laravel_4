@@ -8,6 +8,14 @@ Route::when('*', 'csrf', ['post', 'put', 'patch']);
 
 Route::get('/', ['as' => 'home','uses' =>'HomeController@showWelcome']);
 
+/*Routing for Users Controller*/
+
+		Route::get('signup','UsersController@create');
+
+		Route::get('profile', ['before' => 'auth'] , 'UsersController@show');
+
+		Route::resource('users', 'UsersController', ['only' => ['create', 'store', 'show']]);
+
 /*Routing for Sessions Controller*/
 
 		Route::get('login','SessionsController@create');
@@ -16,7 +24,7 @@ Route::get('/', ['as' => 'home','uses' =>'HomeController@showWelcome']);
 
 		Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store', 'destroy']]);
 
-/* Protected Route Group */
+/* Auth Protected Route Group */
 
 Route::group(array('before' => 'auth'), function()
 {

@@ -11,7 +11,6 @@ class UserSeeder
         "f_name" => "Isuru",
         "l_name" => "Walpola",
         "password" => Hash::make("pussy"),
-        "p_hint" => "Just to stay alive",
         "email"    => "iwalpola@gmail.com"
       ]
     ];

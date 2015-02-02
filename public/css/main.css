@@ -179,24 +179,24 @@ pre code {
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
-/* ======= Login Form ======= */
-.login-container{
+/* ======= Login/Signup Forms ======= */
+.login-container , .signup-container {
   background-color: lightgray;
   padding-bottom: 10%;
 }
-.login-form{
+.login-form , .signup-form {
   border-radius: 5px;
   background: cadetblue;
   padding: 5% 0 10% 0;
 }
-.login-form label{
+.login-form , .signup-form label {
   color: #fff;
 }
-.login-title{
+.login-title , .signup-title {
   color: gold;
   padding-right: 5px;
 }
-.login-title img{
+.login-title , .signup-title img{
   padding-right: 5px;
 }
 /* ======= Promo Section ======= */
