@@ -23,7 +23,7 @@ class SessionsController extends \BaseController {
 	public function store()
 	{
 		$attempt = Auth::attempt(['username' => Input::get("username"), 'password' => Input::get("password")]);
-		if($attempt) return Redirect::intended('dash');
+		if($attempt) return Redirect::intended('dashboard');
 		else dd(Input::get());
 	}
 

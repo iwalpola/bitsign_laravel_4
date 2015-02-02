@@ -1,7 +1,7 @@
 <div class="row">
 	<div id="breadcrumb" class="col-md-12">
 		<ol class="breadcrumb">
-			<li><a href="/dashboard">Dashboard</a></li>
+			<li><a href="dashboard">Dashboard</a></li>
 			<li><a href="#">Contracts</a></li>
 			<li><a href="#">New Contract</a></li>
 		</ol>

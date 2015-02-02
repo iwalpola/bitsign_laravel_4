@@ -7,7 +7,7 @@
 	<div class="container">
     	<div class="signup-form">
     		<center>
-	    	<h1 class="signup-title"><img src="img/logo.png">Sign Up</h1> <br>
+	    	<h1 class="signup-title"><img src="/img/logo.png">Sign Up</h1> <br>
 		      	{{ Form::open(array('route' => 'users.store')) }}
 		      			<div class="form-group">
 			      			{{Form::label('f_name','First Name:')}}
@@ -33,6 +33,11 @@
 			      			{{Form::label('password','Password:')}}
 			      			<br>
 			      			{{Form::password('password')}}
+			      		</div>
+			      		<div class="form-group">
+			      			{{Form::label('password_confirmation','Retype Password:')}}
+			      			<br>
+			      			{{Form::password('password_confirmation')}}
 			      		</div>
 			      		<div class="form-group">
 			      			{{Form::label('agree','I agree to the Terms of Use:')}}

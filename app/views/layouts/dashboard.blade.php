@@ -48,7 +48,7 @@
 	<div class="container-fluid expanded-panel">
 		<div class="row">
 			<div id="logo" class="col-xs-12 col-sm-2">
-				<a href="/dash"><img src="img/logo.png">&nbspBitSign</a>
+				<a href="dashboard"><img src="img/logo.png">&nbspBitSign</a>
 			</div>
 			<div id="top-panel" class="col-xs-12 col-sm-10">
 				<div class="row">
@@ -104,7 +104,7 @@
 		<div id="sidebar-left" class="col-xs-2 col-sm-2">
 			<ul class="nav main-menu">
 				<li>
-					<a href="dashboard" class="active ajax-link">
+					<a href="dashboard/index" class="active ajax-link">
 						
   							<i class="fa fa-shield fa-lg"></i>
  							 

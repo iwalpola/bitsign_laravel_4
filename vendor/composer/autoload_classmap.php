@@ -28,4 +28,6 @@ return array(
     'TestCase' => $baseDir . '/app/tests/TestCase.php',
     'TestController' => $baseDir . '/app/controllers/TestController.php',
     'User' => $baseDir . '/app/models/User.php',
+    'UserSeeder' => $baseDir . '/app/database/seeds/UserSeeder.php',
+    'UsersController' => $baseDir . '/app/controllers/UsersController.php',
 );

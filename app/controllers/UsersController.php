@@ -1,6 +1,14 @@
 <?php
 
+use BitSign\Services\Validation\Validator;
+
 class UsersController extends \BaseController {
+
+	private $validator;
+
+	function __construct(Validator $validator){
+		$this->validator = $validator;
+	}
 
 	/**
 	 * Show the Sign Up form
@@ -21,18 +29,26 @@ class UsersController extends \BaseController {
 	 * @return Response
 	 */
 	public function store()
-	{
-		$input = Input::only(['username','f_name','l_name','email','password']);
-		$input['password'] = Hash::make(Input::get('password'));
-		$valid=1;
-		if($valid){
+	{	
+		$rules = array(
+                'username' => array( 'required', 'min:8', 'alpha_num' , 'unique:users'),
+                'email' => array( 'required', 'email', 'unique:users' ),
+                'f_name' => array( 'required', 'alpha_num' ),
+                'l_name' => array( 'required', 'alpha_num' ),
+                'password' => array( 'required', 'confirmed' )
+            );
+		$input = Input::only(['username','f_name','l_name','email','password', 'password_confirmation']);
+		$valid = $this->validator->validate($input, $rules);
+		if($valid == "valid"){
+			$input['password'] = Hash::make(Input::get('password'));
 			$newUser = User::create($input);
-	    }
-	    if($newUser){
+			if($newUser){
 	            Auth::login($newUser);
 	            return Redirect::route('dashboard');
 	        }
-        return Redirect::route('user.create')->withInput();
+	    }
+	    $messages = $valid->getMessages();
+        return Redirect::route('users.create')->withInput()->withMessages($messages);
 	}
 
 	/**
@@ -54,10 +70,6 @@ class UsersController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit($id)
-	{
-		//
-	}
 
 	/**
 	 * Update the specified resource in storage.

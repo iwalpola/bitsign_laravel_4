@@ -13,5 +13,9 @@ class DashController extends BaseController {
 	{
 		return View::make('layouts.dashboard');
 	}
+	public function index()
+	{
+		return View::make('dashboard.index');
+	}
 
 }

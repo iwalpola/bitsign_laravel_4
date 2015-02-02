@@ -42,5 +42,6 @@ Route::group(array('before' => 'auth'), function()
 
 		/* Dash View Loader */
 
-		Route::get('dash', ['as'=>'dashboard', 'uses'=>'DashController@showDash'])->before('auth');
+		Route::get('dashboard', ['as'=>'dashboard', 'uses'=>'DashController@showDash']);
+		Route::get('dashboard/index', 'DashController@index');
 });
