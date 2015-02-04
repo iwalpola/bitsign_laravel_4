@@ -12,9 +12,6 @@
                 <a class="btn btn-cta-secondary" href="/signup">Sign Up</a>
                 <a class="btn btn-cta-primary" href="/login">Login</a>
             </div>
-         
-                </ul>
-            </div>
         </div>
     </section><!--//promo-->
     
