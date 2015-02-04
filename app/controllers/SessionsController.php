@@ -21,11 +21,10 @@ class SessionsController extends \BaseController {
 	 * @return Response
 	 */
 	public function store()
-	{	$blabla = 3;
+	{
 		$attempt = Auth::attempt(['username' => Input::get("username"), 'password' => Input::get("password")]);
 		if($attempt) return Redirect::intended('dashboard');
-		$message = "Incorrect username/password combination";
-		return Redirect::route('login')->withInput()->withMessage($message);
+		return Redirect::route('login')->withInput()->withInvalid(true);
 	}
 
 	/**

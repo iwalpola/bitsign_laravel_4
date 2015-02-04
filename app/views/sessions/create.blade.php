@@ -8,9 +8,9 @@
     	<div class="login-form">
     		<center>
 	    	<h1 class="login-title"><img src="/img/logo.png">Login</h1> <br>
-	    	@if (Session::get('message') != NULL)
+	    	@if (Session::get('invalid') == true)
 	    	<div class="alert alert-danger">
-	    	{{Session::get('message')}}
+	    	Incorrect username/password combination
 	    	</div>
 	    	@endif
 		      	{{ Form::open(array('route' => 'sessions.store')) }}
