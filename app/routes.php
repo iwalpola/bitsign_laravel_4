@@ -18,7 +18,7 @@ Route::get('/', ['as' => 'home','uses' =>'HomeController@showWelcome']);
 
 /*Routing for Sessions Controller*/
 
-		Route::get('login','SessionsController@create');
+		Route::get('login',['as' => 'login', 'uses' => 'SessionsController@create']);
 
 		Route::get('logout','SessionsController@destroy');
 

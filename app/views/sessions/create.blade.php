@@ -8,6 +8,11 @@
     	<div class="login-form">
     		<center>
 	    	<h1 class="login-title"><img src="/img/logo.png">Login</h1> <br>
+	    	@if (Session::get('message') != NULL)
+	    	<div class="alert alert-danger">
+	    	{{Session::get('message')}}
+	    	</div>
+	    	@endif
 		      	{{ Form::open(array('route' => 'sessions.store')) }}
 		      			<div class="form-group">
 			      			{{Form::label('username','Username:')}}
