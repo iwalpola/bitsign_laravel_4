@@ -68,9 +68,8 @@
 <script type="text/javascript">
 
 $(document).ready(function() {
-	// Create Wysiwig editor for textare
-	TinyMCEStart('#wysiwig_simple', null);
-	TinyMCEStart('#wysiwig_full', 'extreme');
+	// Create Wysiwig editor for textarea
+	TinyMCEStart('#wysiwig_simple');
 	// Load example of form validation
 	LoadBootstrapValidatorScript(DemoFormValidator);
 });

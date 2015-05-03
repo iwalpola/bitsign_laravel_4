@@ -1474,14 +1474,8 @@ function DashboardTabChecker(){
 //
 // Helper for run TinyMCE editor with textarea's
 //
-function TinyMCEStart(elem, mode){
+function TinyMCEStart(elem){
 	var plugins = [];
-	if (mode == 'extreme'){
-		plugins = [ "advlist anchor autolink autoresize autosave bbcode charmap code contextmenu directionality ",
-			"emoticons fullpage fullscreen hr image insertdatetime layer legacyoutput",
-			"link lists media nonbreaking noneditable pagebreak paste preview print save searchreplace",
-			"tabfocus table template textcolor visualblocks visualchars wordcount"]
-	}
 	tinymce.init({selector: elem,
 		theme: "modern",
 		plugins: plugins,
