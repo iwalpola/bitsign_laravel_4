@@ -70,7 +70,7 @@
 $(document).ready(function() {
 	// Create Wysiwig editor for textarea
 	TinyMCEStart('#wysiwig_simple');
-	// Load example of form validation
-	LoadBootstrapValidatorScript(DemoFormValidator);
+	tinymce.execCommand('mceRemoveEditor',true,wysiwig_simple);
+	tinymce.execCommand('mceAddEditor',true,wysiwig_simple);
 });
 </script>						
