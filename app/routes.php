@@ -44,4 +44,8 @@ Route::group(array('before' => 'auth'), function()
 
 		Route::get('dashboard', ['as'=>'dashboard', 'uses'=>'DashController@showDash']);
 		Route::get('dashboard/index', 'DashController@index');
+
+		Route::post('server/handleUploads','TestController@processUpload');
+
 });
+
