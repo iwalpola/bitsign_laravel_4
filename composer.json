@@ -37,6 +37,7 @@
 	},
 	"minimum-stability": "stable",
 	"require-dev": {
-		"way/generators": "~2.0"
+		"way/generators": "~2.0",
+		"thiagoalessio/tesseract_ocr": ">= 0.2.0"
 	}
 }

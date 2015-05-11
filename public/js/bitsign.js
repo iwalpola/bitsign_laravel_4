@@ -1698,15 +1698,15 @@ function FileUpload(){
 		},
 		thumbnails: {
 			placeholders: {
-				waitingPath: "assets/waiting-generic.png",
-				notAvailablePath: "assets/not_available-generic.png"
+				waitingPath: "/img/waiting-generic.png",
+				notAvailablePath: "/img/not_available-generic.png"
 			}
 		},
 		request: {
 			endpoint: 'server/handleUploads'
 		},
 		validation: {
-			allowedExtensions: ['jpeg', 'jpg', 'gif', 'png']
+			allowedExtensions: ['jpeg', 'jpg', 'gif', 'png' , 'pdf']
 		}
 	});
 }
