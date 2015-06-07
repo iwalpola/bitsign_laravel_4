@@ -22,6 +22,7 @@ class ContractsController extends \BaseController {
 	public function create()
 	{
 		//returns the TinyMCE Editor
+		
 		return View::make('contracts.create');
 	}
 
@@ -49,9 +50,27 @@ public function import()
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit($id)
+	public function store()
 	{
-		//
+		//check if its our form
+        if ( Session::token() !== Input::get( '_token' ) ) {
+            return Response::json( array(
+                'msg' => 'Unauthorized attempt to create option'
+            ) );
+        }
+ 
+        $contract_title = Input::get( 'contract_title' );
+        $contract_content = Input::get( 'contract_content' );        
+ 
+        $response = array(
+            'status' => 'success',
+            'msg' => 'Contract created successfully',
+            'title' => $contract_title,
+            'content' => $contract_content,
+
+        );
+ 
+        return Response::json( $response );
 	}
 
 	/**

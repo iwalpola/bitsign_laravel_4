@@ -38,7 +38,7 @@ Route::group(array('before' => 'auth'), function()
 		Route::get('contracts/import', ['as' => 'contracts.import', 'uses' => 'ContractsController@import']);
 
 		Route::resource('contracts', 'ContractsController', 
-			array('only' => array('index', 'create', 'show')));
+			array('only' => array('index', 'create', 'show', 'store')));
 
 		/* Dash View Loader */
 

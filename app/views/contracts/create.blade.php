@@ -30,11 +30,11 @@
 			</div>
 			<div class="box-content">
 				<h4 class="page-header">New Contract</h4>
-				<form class="form-horizontal" role="form">
+				<form class="form-horizontal" role="form" method="post" action="contracts" id="form-add-a-contract">
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="contractname">Contract Title:</label>
+						<label class="col-sm-2 control-label" for="contract_title">Contract Title:</label>
 						<div class="col-sm-10">
-								<input type="text" class="form-control" name="Contract Name" id="contractname"/>
+								<input type="text" class="form-control" name="contract_title" id="contract_title"/>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -42,23 +42,18 @@
 
 						<!--<label class="col-sm-2 control-label" for="form-styles">Textarea</label>-->
 						<div class="col-sm-12">
-								<textarea class="form-control" rows="15" id="wysiwig_simple"></textarea>
+								<textarea class="form-control" rows="15" name="contract_content" id="wysiwig_simple"></textarea>
 						</div>
 					</div>
 					<div class="form-group">
 						<div class="col-sm-2">
 							<button type="submit" class="btn btn-primary btn-label-left btn-block">
 							<span><i class="fa fa-save"></i></span>
-								Save
-							</button>
-						</div>
-						<div class="col-sm-2">
-							<button type="submit" class="btn btn-default btn-label-left">
-							<span><i class="fa fa-clock-o"></i></span>
-								Save and Sign
+								Save and Proceed
 							</button>
 						</div>
 					</div>
+					<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
 				</form>
 			</div>
 		</div>
@@ -72,5 +67,24 @@ $(document).ready(function() {
 	TinyMCEStart('#wysiwig_simple');
 	tinymce.execCommand('mceRemoveEditor',true,wysiwig_simple);
 	tinymce.execCommand('mceAddEditor',true,wysiwig_simple);
+
+	    $('#form-add-a-contract').on('submit', function(){ 
+                 
+       // ajax post method to pass form data to the 
+		        $.post(
+		            $(this).prop('action'),
+		            {
+		                "_token": $( this ).find( 'input[name=_token]' ).val(),
+		                "contract_title": $( '#contract_title' ).val(),
+		                "contract_content": tinyMCE.activeEditor.getContent()
+		            },
+		            function(data){
+		                alert(data["content"]);
+		            },
+		            'json'
+		        ); 
+		       
+		        return false;
+		    }); 
 });
 </script>						
