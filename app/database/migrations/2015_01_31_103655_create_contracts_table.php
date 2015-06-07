@@ -14,10 +14,11 @@ class CreateContractsTable extends Migration {
 	{
 		Schema::create('contracts', function(Blueprint $table)
 		{
-			$table->increments('id');
-			$table->string('name',80);
-			$table->string('type',30);
+			$table->increments('contract_id');
+			$table->string('title',40);
+			$table->longText('content');
 			$table->timestamps();
+			$table->integer('creator_id')->length(12)->unsigned();
 		});
 	}
 
