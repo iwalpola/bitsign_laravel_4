@@ -58,16 +58,23 @@ public function import()
                 'msg' => 'Unauthorized attempt to create option'
             ) );
         }
- 
+ 		// get input
+ 		$creator_id = Input::get( 'creator_id' );
         $contract_title = Input::get( 'contract_title' );
-        $contract_content = Input::get( 'contract_content' );        
+        $contract_content = Input::get( 'contract_content' );
+
+        // store in database
+        $contract = new Contract;
+        $contract->title = $contract_title;
+        $contract->content = $contract_content;
+        $contract->creator_id = $creator_id;
+        $contract->save();
+        $contract_id = $contract->contract_id;
  
         $response = array(
             'status' => 'success',
-            'msg' => 'Contract created successfully',
-            'title' => $contract_title,
-            'content' => $contract_content,
-
+            'creator_id' => $creator_id,
+            'contract_id' => $contract_id,
         );
  
         return Response::json( $response );
