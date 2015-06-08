@@ -24,6 +24,10 @@ Route::get('/', ['as' => 'home','uses' =>'HomeController@showWelcome']);
 
 		Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store', 'destroy']]);
 
+/*Routing, type post for user check*/
+
+		Route::post('signatures/usercheck','SignaturesController@usercheck');
+
 /* Auth Protected Route Group */
 
 Route::group(array('before' => 'auth'), function()
@@ -31,11 +35,14 @@ Route::group(array('before' => 'auth'), function()
 		    /*Routing for Signatures Controller*/
 
 		Route::resource('signatures', 'SignaturesController', 
-			array('only' => array('index', 'create', 'show')));
+			array('only' => array('index', 'store', 'show')));
+
+		Route::get('signatures/{contr_id}', 'SignaturesController@create');
 
 		/*Routing for Contracts Controller*/
 
-		Route::get('contracts/import', ['as' => 'contracts.import', 'uses' => 'ContractsController@import']);
+		Route::get('contracts/import/{id}', ['uses' => 'ContractsController@import']);
+		Route::get('contracts/import/', ['as' => 'contracts.import', 'uses' => 'ContractsController@import']);
 
 		Route::resource('contracts', 'ContractsController', 
 			array('only' => array('index', 'create', 'show', 'store')));
