@@ -26,10 +26,10 @@ class ContractsController extends \BaseController {
 		return View::make('contracts.create');
 	}
 
-public function import()
+public function import($id)
 	{
 		//returns an uploader
-		return View::make('import.doc');
+		return View::make('import.doc')->with('contract_id', $id);
 	}
 	/**
 	 * Display the specified resource.
@@ -69,7 +69,7 @@ public function import()
         $contract->content = $contract_content;
         $contract->creator_id = $creator_id;
         $contract->save();
-        $contract_id = $contract->contract_id;
+        $contract_id = $contract->getKey();
  
         $response = array(
             'status' => 'success',

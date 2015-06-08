@@ -34,7 +34,7 @@
 				  <form enctype="multipart/form-data" accept-charset="UTF-8" action="{{ url('server/handleUploads') }}" method="POST">
 
 				    <input type="hidden" value="<?php echo csrf_token(); ?>" name="_token"></input>
-				    <input type="hidden" value={{Session::get('contractid')}} name="contract_id"></input>
+				    <input type="hidden" value="{{$contract_id}}" name="contract_id"></input>
 				    <label id="" class="" for="file">
 
 				        File
