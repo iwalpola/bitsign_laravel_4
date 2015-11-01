@@ -1,0 +1,15 @@
+This is a todo list for all developers:
+1) Signatures
+
+**A signature has one contract and one or more signees
+Write function in app/models/signature.php to retrieve all records matching user ID of the logged in user and send back a packet
+Write function in views/signatures/index.php simalar to http://datatables.yajrabox.com/starter
+
+2) Contract
+
+**These are creted independently of signatures
+Same as above to display contracts available for signature
+
+3) Blockcypher Library
+
+**All data submissions to blockcypher API
