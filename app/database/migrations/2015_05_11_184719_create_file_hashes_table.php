@@ -16,6 +16,7 @@ class CreateFileHashesTable extends Migration {
 		{
 			$table->increments('file_id');
 			$table->string('hash',32);
+			$table->string('filepath', 100);
 			$table->integer('contract_id')->length(12)->unsigned();
 			$table->timestamps();
 			$table->string('type',3);

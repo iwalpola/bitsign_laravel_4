@@ -2,9 +2,9 @@
 	<div id="breadcrumb" class="col-md-12">
 		<ol class="breadcrumb">
 			<li><a href="dashboard">Dashboard</a></li>
-			<li><a href="#">Contracts</a></li>
-			<li><a href="#">New Contract</a></li>
-			<li><a href="#">Files</a></li>
+			<li><a href="#"><?php echo $data['subheading1']; ?></a></li>
+			<li><a href="#"><?php echo $data['subheading2']; ?></a></li>
+			<li><a href="#"><?php echo $data['subheading3']; ?></a></li>
 		</ol>
 	</div>
 </div>
@@ -14,7 +14,7 @@
 			<div class="box-header">
 				<div class="box-name">
 					<i class="fa fa-pencil"></i>
-					<span>Create a New Contract - Step 2</span>
+					<span>Step 2</span>
 				</div>
 				<div class="box-icons">
 					<a class="collapse-link">
@@ -30,11 +30,11 @@
 				<div class="no-move"></div>
 			</div>
 			<div class="box-content">
-				<h4 class="page-header">Add files that you want to be part of this contract</h4>
-				  <form enctype="multipart/form-data" accept-charset="UTF-8" action="{{ url('server/handleUploads') }}" method="POST">
+				<h4 class="page-header">Add files that you want to be part of this record</h4>
+				  <form enctype="multipart/form-data" accept-charset="UTF-8" action="{{ url('file/upload') }}" method="POST">
 
 				    <input type="hidden" value="<?php echo csrf_token(); ?>" name="_token"></input>
-				    <input type="hidden" value="{{$contract_id}}" name="contract_id"></input>
+				    <input type="hidden" value="{{$data['doc_id']}}" name="doc_id"></input>
 				    <label id="" class="" for="file">
 
 				        File

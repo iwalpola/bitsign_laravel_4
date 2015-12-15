@@ -39,6 +39,18 @@ Route::group(array('before' => 'auth'), function()
 
 		Route::get('signatures/{contr_id}', 'SignaturesController@create');
 
+		 /*Routing for IP Controller*/
+
+		Route::resource('ip', 'IPController', 
+			array('only' => array('index', 'create', 'store', 'show')));
+
+		/*Routing for File Controller*/
+
+		Route::resource('file', 'FileController', 
+			array('only' => array('create')));
+
+		Route::post('file/upload', 'FileController@processUpload');
+
 		/*Routing for Contracts Controller*/
 
 		Route::get('contracts/import/{id}', ['uses' => 'ContractsController@import']);
@@ -52,7 +64,10 @@ Route::group(array('before' => 'auth'), function()
 		Route::get('dashboard', ['as'=>'dashboard', 'uses'=>'DashController@showDash']);
 		Route::get('dashboard/index', 'DashController@index');
 
-		Route::post('server/handleUploads','TestController@processUpload');
+		/* TODO: this route is currently unused */
+
+		Route::resource('server/handleUploads','UploadsController',
+			array('only' => array('show','store','update','destroy')));
 
 });
 

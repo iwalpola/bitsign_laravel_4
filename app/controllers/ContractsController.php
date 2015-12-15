@@ -28,8 +28,17 @@ class ContractsController extends \BaseController {
 
 public function import($id)
 	{
-		//returns an uploader
-		return View::make('import.doc')->with('contract_id', $id);
+		//takes doc_id and appends to data array, then redirects to file import page
+
+		$data = array(
+    	'doc_id'  => $id,
+    	'subheading1'   => 'Contracts',
+    	'subheading2' => 'Create Contract',
+    	'subheading3' => 'Attach Files'
+		);
+
+		//returns an uploader page
+		return View::make('import.new.doc')->with('data', $data);
 	}
 	/**
 	 * Display the specified resource.

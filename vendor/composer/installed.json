@@ -98,12 +98,12 @@
         "version_normalized": "1.0.8.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/d11wtq/boris.git",
+            "url": "https://github.com/borisrepl/boris.git",
             "reference": "125dd4e5752639af7678a22ea597115646d89c6e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/d11wtq/boris/zipball/125dd4e5752639af7678a22ea597115646d89c6e",
+            "url": "https://api.github.com/repos/borisrepl/boris/zipball/125dd4e5752639af7678a22ea597115646d89c6e",
             "reference": "125dd4e5752639af7678a22ea597115646d89c6e",
             "shasum": ""
         },
@@ -311,12 +311,12 @@
         "target-dir": "Symfony/Component/HttpFoundation",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/HttpFoundation.git",
+            "url": "https://github.com/symfony/http-foundation.git",
             "reference": "8e42d9536b5df05f37a9aae5761d3ee69ab95ddf"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/8e42d9536b5df05f37a9aae5761d3ee69ab95ddf",
+            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/8e42d9536b5df05f37a9aae5761d3ee69ab95ddf",
             "reference": "8e42d9536b5df05f37a9aae5761d3ee69ab95ddf",
             "shasum": ""
         },
@@ -366,12 +366,12 @@
         "target-dir": "Symfony/Component/EventDispatcher",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/EventDispatcher.git",
+            "url": "https://github.com/symfony/event-dispatcher.git",
             "reference": "40ff70cadea3785d83cac1c8309514b36113064e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/40ff70cadea3785d83cac1c8309514b36113064e",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/40ff70cadea3785d83cac1c8309514b36113064e",
             "reference": "40ff70cadea3785d83cac1c8309514b36113064e",
             "shasum": ""
         },
@@ -426,12 +426,12 @@
         "target-dir": "Symfony/Component/Debug",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/Debug.git",
+            "url": "https://github.com/symfony/debug.git",
             "reference": "17f9a22782f51ca18724b6713671cf0148b86043"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Debug/zipball/17f9a22782f51ca18724b6713671cf0148b86043",
+            "url": "https://api.github.com/repos/symfony/debug/zipball/17f9a22782f51ca18724b6713671cf0148b86043",
             "reference": "17f9a22782f51ca18724b6713671cf0148b86043",
             "shasum": ""
         },
@@ -483,12 +483,12 @@
         "target-dir": "Symfony/Component/HttpKernel",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/HttpKernel.git",
+            "url": "https://github.com/symfony/http-kernel.git",
             "reference": "84b1bd5433bc78cf78c19808abdd155edb4f1937"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/84b1bd5433bc78cf78c19808abdd155edb4f1937",
+            "url": "https://api.github.com/repos/symfony/http-kernel/zipball/84b1bd5433bc78cf78c19808abdd155edb4f1937",
             "reference": "84b1bd5433bc78cf78c19808abdd155edb4f1937",
             "shasum": ""
         },
@@ -606,12 +606,12 @@
         "target-dir": "Symfony/Component/DomCrawler",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/DomCrawler.git",
+            "url": "https://github.com/symfony/dom-crawler.git",
             "reference": "eea2c3d5c16f6319d0122153594fdb66dfba1ca1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/eea2c3d5c16f6319d0122153594fdb66dfba1ca1",
+            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/eea2c3d5c16f6319d0122153594fdb66dfba1ca1",
             "reference": "eea2c3d5c16f6319d0122153594fdb66dfba1ca1",
             "shasum": ""
         },
@@ -661,12 +661,12 @@
         "target-dir": "Symfony/Component/CssSelector",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/CssSelector.git",
+            "url": "https://github.com/symfony/css-selector.git",
             "reference": "4e9ddc09c13475fb1a52fb578a8899c8303966c5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/CssSelector/zipball/4e9ddc09c13475fb1a52fb578a8899c8303966c5",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/4e9ddc09c13475fb1a52fb578a8899c8303966c5",
             "reference": "4e9ddc09c13475fb1a52fb578a8899c8303966c5",
             "shasum": ""
         },
@@ -714,12 +714,12 @@
         "target-dir": "Symfony/Component/Console",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/Console.git",
+            "url": "https://github.com/symfony/console.git",
             "reference": "39dd1c85ffdfc3c5fb008019dd027af05f64ec36"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Console/zipball/39dd1c85ffdfc3c5fb008019dd027af05f64ec36",
+            "url": "https://api.github.com/repos/symfony/console/zipball/39dd1c85ffdfc3c5fb008019dd027af05f64ec36",
             "reference": "39dd1c85ffdfc3c5fb008019dd027af05f64ec36",
             "shasum": ""
         },
@@ -769,12 +769,12 @@
         "target-dir": "Symfony/Component/BrowserKit",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/BrowserKit.git",
+            "url": "https://github.com/symfony/browser-kit.git",
             "reference": "027accb7a418046887680764bfbeeebc84ecf5a6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/BrowserKit/zipball/027accb7a418046887680764bfbeeebc84ecf5a6",
+            "url": "https://api.github.com/repos/symfony/browser-kit/zipball/027accb7a418046887680764bfbeeebc84ecf5a6",
             "reference": "027accb7a418046887680764bfbeeebc84ecf5a6",
             "shasum": ""
         },
@@ -1345,12 +1345,12 @@
         "target-dir": "Symfony/Component/Filesystem",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/Filesystem.git",
+            "url": "https://github.com/symfony/filesystem.git",
             "reference": "a1f566d1f92e142fa1593f4555d6d89e3044a9b7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Filesystem/zipball/a1f566d1f92e142fa1593f4555d6d89e3044a9b7",
+            "url": "https://api.github.com/repos/symfony/filesystem/zipball/a1f566d1f92e142fa1593f4555d6d89e3044a9b7",
             "reference": "a1f566d1f92e142fa1593f4555d6d89e3044a9b7",
             "shasum": ""
         },
@@ -1720,5 +1720,155 @@
             }
         ],
         "description": "Rapidly generate resources, migrations, models, and much more."
+    },
+    {
+        "name": "yajra/laravel-datatables-oracle",
+        "version": "v3.6.10",
+        "version_normalized": "3.6.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yajra/laravel-datatables.git",
+            "reference": "7184562555e4693a7f5f63785376ae810d8239f5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yajra/laravel-datatables/zipball/7184562555e4693a7f5f63785376ae810d8239f5",
+            "reference": "7184562555e4693a7f5f63785376ae810d8239f5",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/database": "4.*",
+            "illuminate/filesystem": "4.*",
+            "illuminate/http": "4.*",
+            "illuminate/support": "4.*",
+            "illuminate/view": "4.*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.9.*",
+            "phpunit/phpunit": "4.0.*"
+        },
+        "time": "2015-10-29 04:31:06",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "yajra\\Datatables": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Arjay Angeles",
+                "email": "aqangeles@gmail.com"
+            }
+        ],
+        "description": "jQuery DataTables API for Laravel 4|5",
+        "keywords": [
+            "datatable",
+            "datatables",
+            "datatables jquery plugin",
+            "laravel",
+            "laravel4"
+        ]
+    },
+    {
+        "name": "thiagoalessio/tesseract_ocr",
+        "version": "0.2.1",
+        "version_normalized": "0.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thiagoalessio/tesseract-ocr-for-php.git",
+            "reference": "4a594f46fb5003104e8ba377d643c9ce87f272c9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thiagoalessio/tesseract-ocr-for-php/zipball/4a594f46fb5003104e8ba377d643c9ce87f272c9",
+            "reference": "4a594f46fb5003104e8ba377d643c9ce87f272c9",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2015-04-02 13:59:48",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "TesseractOCR/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thiago Alessio",
+                "email": "thiagoalessio@me.com",
+                "homepage": "http://thiagoalessio.com"
+            }
+        ],
+        "description": "A wrapper to work with TesseractOCR inside PHP",
+        "keywords": [
+            "OCR",
+            "Tesseract",
+            "text recognition"
+        ]
+    },
+    {
+        "name": "blueimp/jquery-file-upload",
+        "version": "9.11.2",
+        "version_normalized": "9.11.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vkhramtsov/jQuery-File-Upload.git",
+            "reference": "1944c390ed490ff3ca9c03f0b822088bd4589cde"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/vkhramtsov/jQuery-File-Upload/zipball/1944c390ed490ff3ca9c03f0b822088bd4589cde",
+            "reference": "1944c390ed490ff3ca9c03f0b822088bd4589cde",
+            "shasum": ""
+        },
+        "time": "2015-08-31 05:28:42",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sebastian Tschan",
+                "homepage": "https://blueimp.net"
+            }
+        ],
+        "description": "File Upload widget for jQuery.",
+        "homepage": "https://github.com/blueimp/jQuery-File-Upload",
+        "keywords": [
+            "bootstrap",
+            "chunk",
+            "cross-domain",
+            "cross-site",
+            "drag",
+            "drop",
+            "file",
+            "gae",
+            "go",
+            "jquery",
+            "multiple",
+            "php",
+            "preview",
+            "progress",
+            "python",
+            "resume",
+            "selection",
+            "upload",
+            "widget"
+        ]
     }
 ]
