@@ -167,32 +167,8 @@ class UploadHandler
         if ($error_messages) {
             $this->error_messages = $error_messages + $this->error_messages;
         }
-        if ($initialize) {
-            $this->initialize();
-        }
     }
 
-    protected function initialize() {
-        switch ($this->get_server_var('REQUEST_METHOD')) {
-            case 'OPTIONS':
-            case 'HEAD':
-                $this->head();
-                break;
-            case 'GET':
-                $this->get($this->options['print_response']);
-                break;
-            case 'PATCH':
-            case 'PUT':
-            case 'POST':
-                $this->post($this->options['print_response']);
-                break;
-            case 'DELETE':
-                $this->delete($this->options['print_response']);
-                break;
-            default:
-                $this->header('HTTP/1.1 405 Method Not Allowed');
-        }
-    }
 
     protected function get_full_url() {
         $https = !empty($_SERVER['HTTPS']) && strcasecmp($_SERVER['HTTPS'], 'on') === 0 ||
@@ -1307,9 +1283,6 @@ class UploadHandler
     }
 
     public function post($print_response = true) {
-        if ($this->get_query_param('_method') === 'DELETE') {
-            return $this->delete($print_response);
-        }
         $upload = $this->get_upload_data($this->options['param_name']);
         // Parse the Content-Disposition header, if available:
         $content_disposition_header = $this->get_server_var('HTTP_CONTENT_DISPOSITION');

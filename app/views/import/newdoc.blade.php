@@ -33,7 +33,7 @@
 				<form id="fileupload" action="file/upload" method="POST" enctype="multipart/form-data">
 					<h4 class="page-header">Add files that you want to be part of this record</h4>
 					<br>
-					<input id="fileuploadbox" type="file" name="files[]" multiple>
+					<input type="file" name="files[]" multiple>
 					<input type="hidden" value="<?php echo csrf_token(); ?>" name="_token"></input>
 				    <input type="hidden" value="{{$data['doc_id']}}" name="doc_id"></input>
 				</form>

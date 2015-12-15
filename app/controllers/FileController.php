@@ -18,29 +18,7 @@ class FileController extends \BaseController {
 
 	public function processUpload()
 	{
-		// PHP File Upload error message codes:
-	    // http://php.net/manual/en/features.file-upload.errors.php
-		    protected $error_messages = array(
-		        1 => 'The uploaded file exceeds the upload_max_filesize directive in php.ini',
-		        2 => 'The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form',
-		        3 => 'The uploaded file was only partially uploaded',
-		        4 => 'No file was uploaded',
-		        6 => 'Missing a temporary folder',
-		        7 => 'Failed to write file to disk',
-		        8 => 'A PHP extension stopped the file upload',
-		        'post_max_size' => 'The uploaded file exceeds the post_max_size directive in php.ini',
-		        'max_file_size' => 'File is too big',
-		        'min_file_size' => 'File is too small',
-		        'accept_file_types' => 'Filetype not allowed',
-		        'max_number_of_files' => 'Maximum number of files exceeded',
-		        'max_width' => 'Image exceeds maximum width',
-		        'min_width' => 'Image requires a minimum width',
-		        'max_height' => 'Image exceeds maximum height',
-		        'min_height' => 'Image requires a minimum height',
-		        'abort' => 'File upload aborted',
-		        'image_resize' => 'Failed to resize image'
-		    );
-
+		
 		// Function for converting from hexadecimal to ascii
 
 		function hex2str($hex) {
@@ -65,10 +43,6 @@ class FileController extends \BaseController {
 
 	    // Loop through all uploaded files
 	    foreach ($all_uploads as $upload) {
-	        // Ignore array member if it's not an UploadedFile object, just to be extra safe
-	        if (!is_a($upload, 'Symfony\Component\HttpFoundation\File\UploadedFile')) {
-	            continue;
-	        }
 
 	        $validator = Validator::make(
 	            array('file' => $upload),
