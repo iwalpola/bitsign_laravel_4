@@ -1,10 +1,52 @@
 ## BitSign
 
-What is the blockchain?
+Intellectual Property and Contracts on the blockchain
 
-The blockchain is a public ledger maintained by a network of computers across the globe, and it is virtually impossible for any single entity to change the records in it, as they would need to compete with the massive processing power of the rest of the network.
+## Intellectual Property
 
-What does this mean for your signatures? Once you BitSign a document and we store a record of it in the blockchain, it's tamper-proof and instantly verifiable from anywhere, at any time, even 100 years from now.
+# Proof of Creation
+
+Proof of ownership + Proof of Existence
+
+For Inventors and Digital content creators, a way to prove ownership of a particular project.
+
+# Proof of Transfer
+
+Establishes a chain of custody for intellectual property
+
+# Licensing
+
+Allows licensing and sale for bitcoin
+
+## Contracts
+
+Immutable record of legal contracts
+
+Legally Valid signatures at a fraction of the cost
+
+## Main Tech
+
+# Hashing
+
+Algorithm: sha256
+Provider: Complete Server Side
+Application: Reduce large data to a smaller representative string
+
+# Asymmetric Encryption
+
+Algorithm: ECDSA-RSA
+Provider: Any Wallet
+Application: Proving ownership of a file by signing the hash
+
+# Blockchain metadata store
+
+Algorithm: Abstracted to API
+Provider: Blockcypher
+Application: storing of certain strings on the blockchain
+
+# Data Storage
+
+Better abstract to a CDN or something like dropbox
 
 ### License
 
