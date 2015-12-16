@@ -14,5 +14,5 @@ class FileHash extends Eloquent {
 	 * @var array
 	 */
 
-	protected $fillable = ['hash','filepath','contract_id'];
+	protected $fillable = ['hash','filename','doc_id'];
 }

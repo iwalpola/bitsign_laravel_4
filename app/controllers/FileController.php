@@ -28,8 +28,8 @@ class FileController extends \BaseController {
 		}
 		
 		//Set the upload parameters
-
-		$destinationPath = public_path().'\uploads\\';
+		$assetPath = '/uploads';
+		$uploadPath = public_path($assetPath);
 
 		//Get files from POST Input
 		$all_uploads = Input::file('files'); // your file upload input field in the form should be named 'files' or 'files[]'
@@ -39,7 +39,8 @@ class FileController extends \BaseController {
 	        $all_uploads = array($all_uploads);
 	    }
 
-	    $results = array();
+	    $errors = array();
+	    $files = array();
 
 	    // Loop through all uploaded files
 	    foreach ($all_uploads as $upload) {
@@ -51,35 +52,31 @@ class FileController extends \BaseController {
 
 	        if ($validator->passes()) {
 	            $filename        = str_random(6) . '_' . $upload->getClientOriginalName();
-	        	$uploadSuccess   = $upload->move($destinationPath, $filename);
+	        	$uploadSuccess   = $upload->move($uploadPath, $filename);
 				if($uploadSuccess){
-			 	$shafile = hash_file('sha256', $destinationPath.$filename);
+			 	$shafile = hash_file('sha256', $uploadPath.'/'.$filename);
 			 	// store in database
 			        $filerecord = new FileHash;
-			        $filerecord->hash = hex2str($shafile);
-			        $filerecord->filepath = $destinationPath.'/'.$filename;
-			        $filerecord->contract_id = Input::get( 'doc_id' );
+			        $filerecord->hash = $shafile;
+			        $filerecord->filename = $filename;
+			        $filerecord->doc_id = Input::get( 'doc_id' );
 			        $filerecord->save();
 
-			   	$results['files'][] = 'File "' . $upload->getClientOriginalName() . '" successfully added as hash value: "' . hex2str($shafile) . '"';
+			   	$files[] = 'File ' . $upload->getClientOriginalName() . ' successfully added as hash value: ' . $shafile ;
 				} 
 	        } 
 	        else {
 	            // Collect error messages
-	            $results['errors'][] = 'File "' . $upload->getClientOriginalName() . '":' . $validator->messages()->first('file');
+	            $errors[] = 'File ' . $upload->getClientOriginalName() . ':' . $validator->messages()->first('file');
 	        }
 
 	    }
 
-	    $pussy = array();
-	        $i=0;
-			while ( $i<= 10) {
-				$pussy['files'][] = 'juicy' . $i;
-				$pussy['errors'][] = 'HUKANAWADA?' . rand($i, 3000-$i);
-				$i++;
-			}
-		
-		return Response::json($pussy);
+	    // return our results in a files object
+	    return array(
+	        'files' => $files,
+	        'errors' => $errors
+	    );
 	
 	}
 	

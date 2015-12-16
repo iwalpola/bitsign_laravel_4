@@ -56,12 +56,13 @@
 $(function () {
     $('#fileupload').fileupload({
         dataType: 'json',
-        function (e, data) {
-            $.each(data.files, function (index, filename) {
-                $('<p/>').filename.appendTo('#files');
+        done: function (e, data) {
+        	console.log(data);
+            $.each(data._response.result.files, function (index, filename) {
+                $('<p/>').text(filename).appendTo('#files');
             });
-            $.each(data.errors, function (index, error) {
-                $('<p/>').error.appendTo('#files');
+            $.each(data._response.result.errors, function (index, error) {
+                $('<p/>').text(error).appendTo('#files');
             });
         }
     });

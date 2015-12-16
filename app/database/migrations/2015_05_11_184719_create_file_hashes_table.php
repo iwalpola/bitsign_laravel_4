@@ -15,11 +15,10 @@ class CreateFileHashesTable extends Migration {
 		Schema::create('filehashes', function(Blueprint $table)
 		{
 			$table->increments('file_id');
-			$table->string('hash',32);
-			$table->string('filepath', 100);
-			$table->integer('contract_id')->length(12)->unsigned();
+			$table->string('hash', 64);
+			$table->string('filename', 100);
+			$table->integer('doc_id')->length(12)->unsigned();
 			$table->timestamps();
-			$table->string('type',3);
 		});
 	}
 
