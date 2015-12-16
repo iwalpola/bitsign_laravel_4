@@ -1,17 +1,17 @@
 <?php
 
-class ContractsController extends \BaseController {
+class IPController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
-	 * GET /contracts
+	 * GET /ip
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
-		//returns the fetched contracts index
-		return View::make('contracts.index');
+		//returns the fetched ip index
+		return View::make('ip.index');
 	}
 
 	/**
@@ -23,26 +23,32 @@ class ContractsController extends \BaseController {
 	{
 		//returns the TinyMCE Editor
 		
-		return View::make('contracts.create');
+		return View::make('IP.create');
 	}
 
-public function import($id)
+	/**
+	 * Show the form for uploading a file
+	 *
+	 * @return Redirect
+	 */
+	public function import($ip_id)
 	{
 		//takes doc_id and appends to data array, then redirects to file import page
 
 		$data = array(
-    	'doc_id'  => $id,
-    	'subheading1'   => 'Contracts',
-    	'subheading2' => 'Create Contract',
+    	'doc_id'  => $ip_id,
+    	'subheading1'   => 'Intellectual Property',
+    	'subheading2' => 'New Record',
     	'subheading3' => 'Attach Files'
 		);
 
-		//returns an uploader page
-		return View::make('import.new.doc')->with('data', $data);
+		
+		return View::make('import.doc')->with('data', $data);
 	}
+
 	/**
 	 * Display the specified resource.
-	 * GET /contracts/{id}
+	 * GET /ip/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -54,7 +60,7 @@ public function import($id)
 
 	/**
 	 * Show the form for editing the specified resource.
-	 * GET /contracts/{id}/edit
+	 * GET /ip/{id}/edit
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -69,21 +75,21 @@ public function import($id)
         }
  		// get input
  		$creator_id = Input::get( 'creator_id' );
-        $contract_title = Input::get( 'contract_title' );
-        $contract_content = Input::get( 'contract_content' );
+        $ip_title = Input::get( 'ip_title' );
+        $ip_descr = Input::get( 'ip_descr' );
 
         // store in database
-        $contract = new Contract;
-        $contract->title = $contract_title;
-        $contract->content = $contract_content;
-        $contract->creator_id = $creator_id;
-        $contract->save();
-        $contract_id = $contract->getKey();
+        $ip = new IP;
+        $ip->title = $ip_title;
+        $ip->content = $ip_descr;
+        $ip->creator_id = $creator_id;
+        $ip->save();
+        $ip_id = $ip->getKey();
  
         $response = array(
             'status' => 'success',
             'creator_id' => $creator_id,
-            'contract_id' => $contract_id,
+            'ip_id' => $ip_id,
         );
  
         return Response::json( $response );
@@ -91,7 +97,7 @@ public function import($id)
 
 	/**
 	 * Update the specified resource in storage.
-	 * PUT /contracts/{id}
+	 * PUT /ips/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -103,7 +109,7 @@ public function import($id)
 
 	/**
 	 * Remove the specified resource from storage.
-	 * DELETE /contracts/{id}
+	 * DELETE /ips/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response

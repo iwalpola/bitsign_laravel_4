@@ -20,9 +20,9 @@ class SignaturesController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function create($contr_id)
 	{
-		//
+		return View::make('signatures.create')->withContractid($contr_id);
 	}
 
 	/**
@@ -33,7 +33,26 @@ class SignaturesController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		//check if its our form
+        if ( Session::token() !== Input::get( '_token' ) ) {
+            return Response::json( array(
+                'msg' => 'Unauthorized attempt to create option'
+            ) );
+        }
+ 		//loop through data passed (Input::all();), and find contract id
+ 		//for all the email addresses passed in input, find users that exist
+ 		//if no match, add to an array called new_users or sonmething
+ 		//make an array of emails of users that exist called existing_users
+
+        // store in database, the emails of existing and other users
+        // email new users with a message saying someone asked them to sign a contract
+ 
+        $response = array(
+            'status' => 'success',
+            'creator_id' => $creator_id,
+        );
+ 
+        return Response::json( $response );
 	}
 
 	/**
@@ -55,9 +74,31 @@ class SignaturesController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit($id)
+	public function usercheck()
 	{
-		//
+		//check if its our form
+        if ( Session::token() !== Input::get( '_token' ) ) {
+            return Response::json( array(
+                'msg' => 'Unauthorized attempt to create option'
+            ) );
+        }
+
+        // get input
+ 		$email = Input::get( 'email' );
+        $btc = Input::get( 'btc_addr' );
+        
+        //conditional validation and search
+        if (!is_null($email)){
+        	//validate email like in userscontroller@store
+        	//if valid email, search database, and if match, populate json array setting 'match'=>'true',
+        	//and [concatenation of first name and last name], email and bitcoin address
+        }
+        if (!is_null($btc)){
+        	//validate bitcoin address
+        	//if valid address, search database, and if match, populate json array setting 'match'=>'true',
+        	//and [concatenation of first name and last name], email and bitcoin address
+        }
+        //return json_array
 	}
 
 	/**

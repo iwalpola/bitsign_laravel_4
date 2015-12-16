@@ -108,8 +108,19 @@
 						
   							<i class="fa fa-shield fa-lg"></i>
  							 
-						<span class="hidden-xs">My Bitsign</span>
+						<span class="hidden-xs">Dashboard</span>
 					</a>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle">
+						<i class="fa fa-pencil-square-o fa-1x"></i>
+						 <span class="hidden-xs">Intellectual Property</span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a class="ajax-link" href="ip/create">Create Record</a></li>
+						<li><a class="ajax-link" href="ip/share">Secure Share</a></li>
+						<li><a class="ajax-link" href="ip/sell">Sell for Bitcoin</a></li>
+					</ul>
 				</li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle">

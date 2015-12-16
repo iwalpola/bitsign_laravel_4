@@ -30,33 +30,29 @@
 				<div class="no-move"></div>
 			</div>
 			<div class="box-content">
-				<h4 class="page-header">Add files that you want to be part of this record</h4>
-				  <form enctype="multipart/form-data" accept-charset="UTF-8" action="{{ url('file/upload') }}" method="POST">
-
-				    <input type="hidden" value="<?php echo csrf_token(); ?>" name="_token"></input>
+				<form id="fileupload" action="file/upload" method="POST" enctype="multipart/form-data">
+					<h4 class="page-header">Add files that you want to be part of this record</h4>
+					<br>
+					<input id="fileuploadbox" type="file" name="files[]" multiple>
+					<input type="hidden" value="<?php echo csrf_token(); ?>" name="_token"></input>
 				    <input type="hidden" value="{{$data['doc_id']}}" name="doc_id"></input>
-				    <label id="" class="" for="file">
-
-				        File
-
-				    </label>
-				    <input id="file" type="file" name="file"></input>
-				    <br></br>
-				    <!--
-
-				     submit buttons 
-
-				    -->
-				    <input type="submit" value="Upload"></input>
-				    <!--
-
-				     reset buttons 
-
-				    -->
-				    <input type="reset" value="Reset"></input>
-
 				</form>
-				</div>
+			</div>
 		</div>
 	</div>
 </div>
+<script src="plugins/file-upload/js/vendor/jquery.ui.widget.js"></script>
+<script src="plugins/file-upload/js/jquery.iframe-transport.js"></script>
+<script src="plugins/file-upload/js/jquery.fileupload.js"></script>
+<script>
+$(function () {
+    $('#fileupload').fileupload({
+        dataType: 'json',
+        done: function (e, data) {
+            $.each(data.result.files, function (index, file) {
+                $('<p/>').text(file.name).appendTo(document.body);
+            });
+        }
+    });
+});
+</script>
