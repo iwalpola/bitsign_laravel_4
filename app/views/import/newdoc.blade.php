@@ -37,6 +37,14 @@
 					<input type="hidden" value="<?php echo csrf_token(); ?>" name="_token"></input>
 				    <input type="hidden" value="{{$data['doc_id']}}" name="doc_id"></input>
 				</form>
+				<br>
+			    <!-- The global progress bar -->
+			    <div id="progress" class="progress">
+			        <div class="progress-bar progress-bar-success"></div>
+			    </div>
+			    <!-- The container for the uploaded files -->
+			    <div id="files" class="files"></div>
+			    <br>
 			</div>
 		</div>
 	</div>
@@ -48,9 +56,12 @@
 $(function () {
     $('#fileupload').fileupload({
         dataType: 'json',
-        done: function (e, data) {
-            $.each(data.result.files, function (index, file) {
-                $('<p/>').text(file.name).appendTo(document.body);
+        function (e, data) {
+            $.each(data.files, function (index, filename) {
+                $('<p/>').filename.appendTo('#files');
+            });
+            $.each(data.errors, function (index, error) {
+                $('<p/>').error.appendTo('#files');
             });
         }
     });

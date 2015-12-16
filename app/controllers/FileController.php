@@ -29,7 +29,7 @@ class FileController extends \BaseController {
 		
 		//Set the upload parameters
 
-		$destinationPath = public_path().'/uploads/';
+		$destinationPath = public_path().'\uploads\\';
 
 		//Get files from POST Input
 		$all_uploads = Input::file('files'); // your file upload input field in the form should be named 'files' or 'files[]'
@@ -39,7 +39,7 @@ class FileController extends \BaseController {
 	        $all_uploads = array($all_uploads);
 	    }
 
-	    $error_messages = array();
+	    $results = array();
 
 	    // Loop through all uploaded files
 	    foreach ($all_uploads as $upload) {
@@ -53,17 +53,33 @@ class FileController extends \BaseController {
 	            $filename        = str_random(6) . '_' . $upload->getClientOriginalName();
 	        	$uploadSuccess   = $upload->move($destinationPath, $filename);
 				if($uploadSuccess){
-			 	$shafile = hash_file('sha256', $destinationPath.'/'.$filename);
-			   	$asciistring = hex2str($shafile);
-			   	echo $asciistring;// or do a redirect with some message that file was uploaded
+			 	$shafile = hash_file('sha256', $destinationPath.$filename);
+			 	// store in database
+			        $filerecord = new FileHash;
+			        $filerecord->hash = hex2str($shafile);
+			        $filerecord->filepath = $destinationPath.'/'.$filename;
+			        $filerecord->contract_id = Input::get( 'doc_id' );
+			        $filerecord->save();
+
+			   	$results['files'][] = 'File "' . $upload->getClientOriginalName() . '" successfully added as hash value: "' . hex2str($shafile) . '"';
 				} 
 	        } 
 	        else {
 	            // Collect error messages
-	            $error_messages[] = 'File "' . $upload->getClientOriginalName() . '":' . $validator->messages()->first('file');
+	            $results['errors'][] = 'File "' . $upload->getClientOriginalName() . '":' . $validator->messages()->first('file');
 	        }
+
 	    }
+
+	    $pussy = array();
+	        $i=0;
+			while ( $i<= 10) {
+				$pussy['files'][] = 'juicy' . $i;
+				$pussy['errors'][] = 'HUKANAWADA?' . rand($i, 3000-$i);
+				$i++;
+			}
 		
+		return Response::json($pussy);
 	
 	}
 	
