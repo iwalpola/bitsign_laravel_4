@@ -38,7 +38,7 @@ public function import($id)
 		);
 
 		//returns an uploader page
-		return View::make('import.new.doc')->with('data', $data);
+		return View::make('import.newdoc')->with('data', $data);
 	}
 	/**
 	 * Display the specified resource.

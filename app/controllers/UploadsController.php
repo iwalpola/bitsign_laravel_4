@@ -12,12 +12,12 @@ class UploadsController extends BaseController {
 
 	public function store()
 	{
-		
+		$uploader->post(true);
 	}
 
 	public function show()
 	{
-		
+		$uploader->get("true");
 	}
 
 	public function update()

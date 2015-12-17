@@ -13,7 +13,6 @@
 		<link href="plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
 		<link href="plugins/select2/select2.css" rel="stylesheet">
 		<link href="css/bitsign_style.css" rel="stylesheet">
-		<link href="plugins/chartist/chartist.min.css" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 				<script src="http://getbootstrap.com/docs-assets/js/html5shiv.js"></script>

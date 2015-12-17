@@ -18,29 +18,7 @@ class FileController extends \BaseController {
 
 	public function processUpload()
 	{
-		// PHP File Upload error message codes:
-	    // http://php.net/manual/en/features.file-upload.errors.php
-		    protected $error_messages = array(
-		        1 => 'The uploaded file exceeds the upload_max_filesize directive in php.ini',
-		        2 => 'The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form',
-		        3 => 'The uploaded file was only partially uploaded',
-		        4 => 'No file was uploaded',
-		        6 => 'Missing a temporary folder',
-		        7 => 'Failed to write file to disk',
-		        8 => 'A PHP extension stopped the file upload',
-		        'post_max_size' => 'The uploaded file exceeds the post_max_size directive in php.ini',
-		        'max_file_size' => 'File is too big',
-		        'min_file_size' => 'File is too small',
-		        'accept_file_types' => 'Filetype not allowed',
-		        'max_number_of_files' => 'Maximum number of files exceeded',
-		        'max_width' => 'Image exceeds maximum width',
-		        'min_width' => 'Image requires a minimum width',
-		        'max_height' => 'Image exceeds maximum height',
-		        'min_height' => 'Image requires a minimum height',
-		        'abort' => 'File upload aborted',
-		        'image_resize' => 'Failed to resize image'
-		    );
-
+		
 		// Function for converting from hexadecimal to ascii
 
 		function hex2str($hex) {
@@ -50,8 +28,8 @@ class FileController extends \BaseController {
 		}
 		
 		//Set the upload parameters
-
-		$destinationPath = public_path().'/uploads/';
+		$assetPath = '/uploads';
+		$uploadPath = public_path($assetPath);
 
 		//Get files from POST Input
 		$all_uploads = Input::file('files'); // your file upload input field in the form should be named 'files' or 'files[]'
@@ -61,14 +39,11 @@ class FileController extends \BaseController {
 	        $all_uploads = array($all_uploads);
 	    }
 
-	    $error_messages = array();
+	    $errors = array();
+	    $files = array();
 
 	    // Loop through all uploaded files
 	    foreach ($all_uploads as $upload) {
-	        // Ignore array member if it's not an UploadedFile object, just to be extra safe
-	        if (!is_a($upload, 'Symfony\Component\HttpFoundation\File\UploadedFile')) {
-	            continue;
-	        }
 
 	        $validator = Validator::make(
 	            array('file' => $upload),
@@ -77,19 +52,31 @@ class FileController extends \BaseController {
 
 	        if ($validator->passes()) {
 	            $filename        = str_random(6) . '_' . $upload->getClientOriginalName();
-	        	$uploadSuccess   = $upload->move($destinationPath, $filename);
+	        	$uploadSuccess   = $upload->move($uploadPath, $filename);
 				if($uploadSuccess){
-			 	$shafile = hash_file('sha256', $destinationPath.'/'.$filename);
-			   	$asciistring = hex2str($shafile);
-			   	echo $asciistring;// or do a redirect with some message that file was uploaded
+			 	$shafile = hash_file('sha256', $uploadPath.'/'.$filename);
+			 	// store in database
+			        $filerecord = new FileHash;
+			        $filerecord->hash = $shafile;
+			        $filerecord->filename = $filename;
+			        $filerecord->doc_id = Input::get( 'doc_id' );
+			        $filerecord->save();
+
+			   	$files[] = 'File ' . $upload->getClientOriginalName() . ' successfully added as hash value: ' . $shafile ;
 				} 
 	        } 
 	        else {
 	            // Collect error messages
-	            $error_messages[] = 'File "' . $upload->getClientOriginalName() . '":' . $validator->messages()->first('file');
+	            $errors[] = 'File ' . $upload->getClientOriginalName() . ':' . $validator->messages()->first('file');
 	        }
+
 	    }
-		
+
+	    // return our results in a files object
+	    return array(
+	        'files' => $files,
+	        'errors' => $errors
+	    );
 	
 	}
 	
