@@ -30,7 +30,7 @@
 				<div class="no-move"></div>
 			</div>
 			<div class="box-content">
-				<form id="fileupload" action="file/upload" method="POST" enctype="multipart/form-data">
+				<form id="fileupload" action="file" method="POST" enctype="multipart/form-data">
 					<h4 class="page-header">Add files that you want to be part of this record</h4>
 					<br>
 					<input type="file" name="files[]" multiple>

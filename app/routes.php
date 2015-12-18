@@ -32,29 +32,21 @@ Route::get('/', ['as' => 'home','uses' =>'HomeController@showWelcome']);
 
 Route::group(array('before' => 'auth'), function()
 {
-		    /*Routing for Signatures Controller*/
+		/*Routing for Signatures Controller*/
 
 		Route::resource('signatures', 'SignaturesController', 
-			array('only' => array('index', 'store', 'show')));
+			array('only' => array('index')));
 
 		Route::get('signatures/{contr_id}', 'SignaturesController@create');
-
-		 /*Routing for IP Controller*/
-
-		Route::resource('ip', 'IPController', 
-			array('only' => array('index', 'create', 'store', 'show')));
 
 		/*Routing for File Controller*/
 
 		Route::resource('file', 'FileController', 
-			array('only' => array('create')));
+			array('only' => array('store')));
 
-		Route::post('file/upload', 'FileController@processUpload');
+		Route::get('file/{id}', ['uses' => 'FileController@create']);
 
 		/*Routing for Contracts Controller*/
-
-		Route::get('contracts/import/{id}', ['uses' => 'ContractsController@import']);
-		Route::get('contracts/import/', ['as' => 'contracts.import', 'uses' => 'ContractsController@import']);
 
 		Route::resource('contracts', 'ContractsController', 
 			array('only' => array('index', 'create', 'show', 'store')));
@@ -63,11 +55,6 @@ Route::group(array('before' => 'auth'), function()
 
 		Route::get('dashboard', ['as'=>'dashboard', 'uses'=>'DashController@showDash']);
 		Route::get('dashboard/index', 'DashController@index');
-
-		/* TODO: this route is currently unused */
-
-		Route::resource('server/handleUploads','UploadsController',
-			array('only' => array('show','store','update','destroy')));
 
 });
 

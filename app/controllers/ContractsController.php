@@ -3,7 +3,7 @@
 class ContractsController extends \BaseController {
 
 	/**
-	 * Display a listing of the resource.
+	 * Display a listing of the contracts created by the current user
 	 * GET /contracts
 	 *
 	 * @return Response
@@ -15,7 +15,7 @@ class ContractsController extends \BaseController {
 	}
 
 	/**
-	 * Show the form for creating a new resource.
+	 * Show the form for creating a new contract.
 	 *
 	 * @return Response
 	 */
@@ -26,20 +26,6 @@ class ContractsController extends \BaseController {
 		return View::make('contracts.create');
 	}
 
-public function import($id)
-	{
-		//takes doc_id and appends to data array, then redirects to file import page
-
-		$data = array(
-    	'doc_id'  => $id,
-    	'subheading1'   => 'Contracts',
-    	'subheading2' => 'Create Contract',
-    	'subheading3' => 'Attach Files'
-		);
-
-		//returns an uploader page
-		return View::make('import.newdoc')->with('data', $data);
-	}
 	/**
 	 * Display the specified resource.
 	 * GET /contracts/{id}
@@ -59,16 +45,11 @@ public function import($id)
 	 * @param  int  $id
 	 * @return Response
 	 */
+	
 	public function store()
 	{
-		//check if its our form
-        if ( Session::token() !== Input::get( '_token' ) ) {
-            return Response::json( array(
-                'msg' => 'Unauthorized attempt to create option'
-            ) );
-        }
- 		// get input
- 		$creator_id = Input::get( 'creator_id' );
+		// get input
+ 		$creator_id = Auth::user()->id;
         $contract_title = Input::get( 'contract_title' );
         $contract_content = Input::get( 'contract_content' );
 
@@ -82,8 +63,7 @@ public function import($id)
  
         $response = array(
             'status' => 'success',
-            'creator_id' => $creator_id,
-            'contract_id' => $contract_id,
+            'contract_id' => $contract_id
         );
  
         return Response::json( $response );

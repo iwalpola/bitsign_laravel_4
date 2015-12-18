@@ -54,7 +54,6 @@
 						</div>
 					</div>
 					<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
-					<input type="hidden" name="creator_id" value={{Auth::user()->id}}>
 				</form>
 			</div>
 		</div>
@@ -77,11 +76,10 @@ $(document).ready(function() {
 		            {
 		                "_token": $( this ).find( 'input[name=_token]' ).val(),
 		                "contract_title": $( '#contract_title' ).val(),
-		                "contract_content": tinyMCE.activeEditor.getContent(),
-		                "creator_id": $( this ).find( 'input[name=creator_id]' ).val()
+		                "contract_content": tinyMCE.activeEditor.getContent()
 		            },
 		            function(data){
-		            	var ajax_url = 'contracts/import/' + data["contract_id"];
+		            	var ajax_url = 'file/' + data["contract_id"];
 		                LoadAjaxContent(ajax_url);
 		            },
 		            'json'

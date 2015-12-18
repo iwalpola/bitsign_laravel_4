@@ -8,17 +8,36 @@ class FileController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function create($data)
+	public function create($id)
 	{
-		//returns the TinyMCE Editor
-		
-		return View::make('import.doc')->with('data', $data);
+		//takes doc_id and appends to data array, then redirects to file import page
+
+		$data = array(
+    	'doc_id'  => $id,
+    	'subheading1'   => 'Contracts',
+    	'subheading2' => 'Create Contract',
+    	'subheading3' => 'Attach Files'
+		);
+
+		//returns an uploader page
+		return View::make('import.newdoc')->with('data', $data);
 	}
 
 
-	public function processUpload()
+	public function store()
 	{
 		
+		$doc_id = Input::get( 'doc_id' );
+
+		//Check whether this contract belongs to this user
+
+		if (Contract::find($doc_id)->creator_id != Auth::user()->id){
+			$error = array('0' => 'You are not the creator. Get out now to avoid a lawsuit');
+			return array(
+	        	'errors' => $errors
+	    	);
+		}
+
 		// Function for converting from hexadecimal to ascii
 
 		function hex2str($hex) {
@@ -56,10 +75,10 @@ class FileController extends \BaseController {
 				if($uploadSuccess){
 			 	$shafile = hash_file('sha256', $uploadPath.'/'.$filename);
 			 	// store in database
-			        $filerecord = new FileHash;
+			        $filerecord = new FileRecord;
 			        $filerecord->hash = $shafile;
 			        $filerecord->filename = $filename;
-			        $filerecord->doc_id = Input::get( 'doc_id' );
+			        $filerecord->doc_id = $doc_id;
 			        $filerecord->save();
 
 			   	$files[] = 'File ' . $upload->getClientOriginalName() . ' successfully added as hash value: ' . $shafile ;
