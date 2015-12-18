@@ -1,12 +1,12 @@
 <?php
 
-class FileHash extends Eloquent {
+class FileRecord extends Eloquent {
 	/**
 	 * The database table used by the model.
 	 *
 	 * @var string
 	 */
-	protected $table = 'filehashes';
+	protected $table = 'filerecords';
 
 	/**
 	 * The parts of the users table that are fillable.

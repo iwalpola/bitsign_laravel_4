@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateFileHashesTable extends Migration {
+class CreateFileRecordsTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,7 +12,7 @@ class CreateFileHashesTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('filehashes', function(Blueprint $table)
+		Schema::create('filerecords', function(Blueprint $table)
 		{
 			$table->increments('file_id');
 			$table->string('hash', 64);
