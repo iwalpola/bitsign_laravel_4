@@ -20,7 +20,7 @@ class FileController extends \BaseController {
 		);
 
 		//returns an uploader page
-		return View::make('import.newdoc')->with('data', $data);
+		return View::make('file.create')->with('data', $data);
 	}
 
 
